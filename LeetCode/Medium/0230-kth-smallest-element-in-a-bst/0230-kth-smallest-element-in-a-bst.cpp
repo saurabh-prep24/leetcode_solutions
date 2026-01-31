@@ -23,11 +23,18 @@ public:
     }
     int kthSmallest(TreeNode* root, int k) {
         // pre-order of BST is sorted arr
+        // Time: O(n)
+        // Space: O(n)
         vector<int> v;
         preOrder(root, v);
         if(k>v.size()){
             return -1;
         }
         return v[k - 1];
+
+        // Space can be opt with maxHeap for k elem
+        // do any traversal and return heap top elem
+        // Time: O(n)
+        // Space: O(k)
     }
 };
