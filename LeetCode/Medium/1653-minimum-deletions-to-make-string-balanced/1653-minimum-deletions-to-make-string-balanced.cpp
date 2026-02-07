@@ -1,22 +1,27 @@
 class Solution {
 public:
-    int minimumDeletions(string s) {
-        stack<char> st;
-        int count[2];
-        count[0]=0;
-        count[1]=0;
-        int ans=0;
-        for(int i =s.size()-1;i>=0;i--){
-            if(!st.empty() && st.top() - 'a' < s[i]-'a'){
-                if(count[st.top()-'a'] == 1){
-                    st.pop();
-                }else{
-                    continue;
+    int greedy(string s) {
+        /*
+            Hint 1: Traverse the string from left to right.
+            Hint 2: Keep a counter for the number of 'b' characters seen so far.
+            Hint 3: An 'a' appearing after a 'b' makes the string unbalanced.
+            Hint 4: Fix this greedily by deleting one earlier 'b'.
+            Hint 5: Count each such fix as one deletion; the final count is the
+           answer.
+        */
+        int countB = 0;
+        int ans = 0;
+        for (auto i : s) {
+            if (i == 'b') {
+                countB++;
+            } else {
+                if (countB > 0) {
+                    countB--;
+                    ans++;
                 }
             }
-            st.push(s[i]);
-            count[s[i]-'a']++;
         }
-        return s.size()-st.size();
+        return ans;
     }
+    int minimumDeletions(string s) { return greedy(s); }
 };
