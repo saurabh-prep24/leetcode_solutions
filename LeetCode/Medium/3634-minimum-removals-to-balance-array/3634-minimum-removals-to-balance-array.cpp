@@ -7,14 +7,24 @@ public:
             return 0;
         int i = 0, j = 0;
         int ans = 0;
-        while (i < n && j < n) {
-            if (nums[j] <= 1LL * k * nums[i]) {
-                j++;
-            } else {
+        // while (i < n && j < n) {
+        //     if (nums[j] <= 1LL * k * nums[i]) {
+        //         j++;
+        //     } else {
+        //         i++;
+        //     }
+        //     ans = max(ans, j - i);
+        //     // cout << i << j << ans << endl;
+        // }
+
+        while (j < n) {
+            // k * min < max => i++
+            // k * min >= max => ans is calc
+            while (i < n && 1LL * nums[i] * k < nums[j]) {
                 i++;
             }
-            ans = max(ans, j - i);
-            // cout << i << j << ans << endl;
+            ans = max(ans, j - i + 1);
+            j++;
         }
         return n - ans;
     }
