@@ -12,13 +12,13 @@
  */
 class Solution {
 public:
-    void preOrder(TreeNode* root, vector<int>& v) {
+    void inOrder(TreeNode* root, vector<int>& v) {
         if (!root) {
             return;
         }
+        inOrder(root->left, v);
         v.push_back(root->val);
-        preOrder(root->left, v);
-        preOrder(root->right, v);
+        inOrder(root->right, v);
     }
     TreeNode* buildTree(vector<int>& v, int start, int end) {
         if (start > end)
@@ -33,8 +33,8 @@ public:
     }
     TreeNode* balanceBST(TreeNode* root) {
         vector<int> nodes;
-        preOrder(root, nodes);
-        sort(nodes.begin(), nodes.end());
+        inOrder(root, nodes);
+        // sort(nodes.begin(), nodes.end());
         TreeNode* newRoot = buildTree(nodes, 0, nodes.size() - 1);
         return newRoot;
     }
