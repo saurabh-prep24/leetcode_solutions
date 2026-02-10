@@ -12,7 +12,7 @@ public:
     // sort from k+1 to n [nothing as remaining is last elem]
     vector<int> solveAlgo(vector<int>& v) {
         int n = v.size();
-        int k = 0, l = 0;
+        int k = -1, l = 0;
         // get k index where a[k] < a[k+1]
         for (int i = n - 2; i >= 0; i--) {
             if (v[i] < v[i + 1]) {
@@ -21,7 +21,7 @@ public:
             }
         }
         // cout<<k<<endl;
-        if (k == 0) {
+        if (k == -1) {
             // if no k is found then given is last permutation
             // we can sort and return to get first one
             sort(v.begin(), v.end());
