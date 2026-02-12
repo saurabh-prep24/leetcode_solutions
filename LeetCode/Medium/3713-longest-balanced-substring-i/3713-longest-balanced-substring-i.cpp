@@ -1,7 +1,7 @@
 class Solution {
 public:
     int longestBalanced(string s) {
-        int ans = 0;
+        int ans = 1;
         for (int start = 0; start < s.size() - 1; start++) {
             vector<int> count(26, 0);
             for (int end = start; end < s.size(); end++) {
