@@ -22,11 +22,12 @@ public:
                 j--;
             }
             // update ans 
-            ans = to_string(s % 2)+ans;
+            ans += (s % 2)+ '0';
             // update carry
             c = s / 2;
         }
         // return ans
+        reverse(ans.begin(), ans.end());
         return ans;
     }
 };
