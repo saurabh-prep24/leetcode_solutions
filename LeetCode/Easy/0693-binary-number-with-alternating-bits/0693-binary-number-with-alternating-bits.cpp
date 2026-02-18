@@ -27,7 +27,7 @@ public:
         return (temp & (temp + 1)) == 0;
     }
     bool hasAlternatingBits(int n) {
-        return trick(n);
+        // return trick(n);
 
         // check first set bit
         bool isSetBit = n & 1;
