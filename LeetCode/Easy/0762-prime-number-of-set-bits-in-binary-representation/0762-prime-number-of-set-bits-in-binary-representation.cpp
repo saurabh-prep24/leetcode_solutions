@@ -2,12 +2,14 @@ class Solution {
 public:
     int getSetBitsCount(int n) {
         int s = 0;
+        // time: O(32)
         // while (n > 0) {
         //     s += n & 1;
         //     n = n >> 1;
         // }
 
-        // better
+        // better - removes the lowest set bit
+        // time: O(no of set bits)
         while (n) {
             n = n & (n - 1);
             s++;
@@ -32,7 +34,6 @@ public:
             int setBits = getSetBitsCount(i);
             if (isPrime(setBits)) {
                 ans++;
-                // cout << i << " " << setBits << " " << ans << endl;
             }
         }
         return ans;
