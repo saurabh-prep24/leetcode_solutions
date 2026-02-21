@@ -2,16 +2,24 @@ class Solution {
 public:
     int getSetBitsCount(int n) {
         int s = 0;
-        while (n > 0) {
-            s += n & 1;
-            n = n >> 1;
+        // while (n > 0) {
+        //     s += n & 1;
+        //     n = n >> 1;
+        // }
+
+        // better
+        while (n) {
+            n = n & (n - 1);
+            s++;
         }
         return s;
     }
     bool isPrime(int n) {
         if (n < 2)
             return 0;
-
+        if (n == 2 || n == 3) {
+            return 1;
+        }
         for (int i = 2; i * i <= n; i++) {
             if (n % i == 0)
                 return 0;
