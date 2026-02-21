@@ -20,8 +20,8 @@ public:
         return s;
     }
     int hammingWeight(int n) {
-        cout << simple(n) << endl;
-        cout << opt(n) << endl;
+        // cout << simple(n) << endl;
+        // cout << opt(n) << endl;
         return opt(n);
     }
 };
