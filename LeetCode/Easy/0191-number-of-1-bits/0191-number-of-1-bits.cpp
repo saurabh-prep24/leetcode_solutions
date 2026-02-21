@@ -4,9 +4,8 @@ public:
     int simple(int n) {
         int s = 0;
         while (n) {
-            n = n & 1;
+            s += n & 1;
             n = n >> 1;
-            s++;
         }
         return s;
     }
