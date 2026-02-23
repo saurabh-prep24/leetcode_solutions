@@ -41,13 +41,15 @@ public:
         return 1;
     }
 
-    bool caculatePermutation(string s, int k){
+    // time: O(1)
+    // space: O(N)
+    bool caculatePermutation(string s, int k) {
         // for each position there is 2 choices 0 or 1
         // for k size there 2^k options
         // now no of substr of k sizes
         // (n - k + 1) -> ex - n = 5, k = 2 -> substr = 5-2+1 = 4
-        // now with this -> total substr >= 2^k [1<<k = 2^k -> rightshift 1 k times]
-        // if not possible then return false
+        // now with this -> total substr >= 2^k [1<<k = 2^k -> rightshift 1 k
+        // times] if not possible then return false
         if (s.size() - k + 1 < (1 << k)) {
             return 0;
         }
@@ -55,11 +57,11 @@ public:
         // so put into set to store unique substr
         // now total substr should be >= 2^k
         unordered_set<string> substr;
-        for(int i=0;i<s.size()-k+1;i++){
+        for (int i = 0; i < s.size() - k + 1; i++) {
             substr.insert(s.substr(i, k));
         }
         // substr count can't be greater than 2^k as substr are of k len
-        return substr.size() == (1<<k);
+        return substr.size() == (1 << k);
     }
     bool hasAllCodes(string s, int k) {
         if (k > s.size()) {
