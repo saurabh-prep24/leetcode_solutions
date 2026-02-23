@@ -1,32 +1,29 @@
 class Solution {
 public:
-    bool validPalindrome(string s) {
-        int count[26] = {0};
-        for (auto i : s) {
-            count[i - 'a']++;
-        }
-        char mismatch = '0';
-        for (int i = 0; i < 26; i++) {
-            if (count[i] % 2 != 0) {
-                mismatch = i + 'a';
-                break;
-            }
-        }
-
-        int i = 0, j = s.size() - 1;
-        while (i < j) {
-            if (s[i] == s[j]) {
-                i++;
-                j--;
-                continue;
-            }
-
-            if (mismatch != '0' && s[i] == mismatch) {
-                i++;
-            } else if (mismatch != '0' && s[j] == mismatch) {
-                j--;
-            } else
+    bool check(string s, int l, int r) {
+        while (l < r) {
+            if (s[l] == s[r]) {
+                l++;
+                r--;
+            } else {
                 return 0;
+            }
+        }
+        return 1;
+    }
+    bool validPalindrome(string s) {
+        int l = 0, r = s.size()-1;
+        while(l<r){
+            if(s[l]==s[r]){
+                l++;
+                r--;
+            }else{
+                if(check(s, l+1, r) || check(s, l, r-1)){
+                    return 1;
+                }else{
+                    return 0;
+                }
+            }
         }
         return 1;
     }
