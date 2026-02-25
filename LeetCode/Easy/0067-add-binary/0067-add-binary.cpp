@@ -1,7 +1,7 @@
 class Solution {
 public:
     // Time: O(N)
-    // Space: O(1)
+    // Space: O(N)
     string addBinary(string a, string b) {
         // store ans
         string ans = "";
