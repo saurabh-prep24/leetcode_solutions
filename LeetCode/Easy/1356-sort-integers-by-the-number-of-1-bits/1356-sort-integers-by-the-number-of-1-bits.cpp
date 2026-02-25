@@ -9,16 +9,28 @@ public:
         return a;
     }
 
-    static bool compare(int &a, int &b){
-        int setA =  getSetBits(a);
-        int setB =  getSetBits(b);
-        if (setA == setB){
-            return a<b;
+    // static bool compare(int &a, int &b){
+    //     int setA =  getSetBits(a);
+    //     int setB =  getSetBits(b);
+    //     if (setA == setB){
+    //         return a<b;
+    //     }
+    //     return setA < setB;
+    // }
+
+    struct compare {
+        bool operator()(int &a, int &b){
+            int setA =  getSetBits(a);
+            int setB =  getSetBits(b);
+            if (setA == setB){
+                return a<b;
+            }
+            return setA < setB;
         }
-        return setA < setB;
-    }
+    };
     vector<int> sortByBits(vector<int>& arr) {
-        sort(arr.begin(), arr.end(), compare);
+        // sort(arr.begin(), arr.end(), compare);
+        sort(arr.begin(), arr.end(), compare());
         return arr;
     }
 };
