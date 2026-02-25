@@ -10,10 +10,12 @@ public:
     }
 
     static bool compare(int &a, int &b){
-        if (getSetBits(a) == getSetBits(b)){
+        int setA =  getSetBits(a);
+        int setB =  getSetBits(b);
+        if (setA == setB){
             return a<b;
         }
-        return getSetBits(a) < getSetBits(b);
+        return setA < setB;
     }
     vector<int> sortByBits(vector<int>& arr) {
         sort(arr.begin(), arr.end(), compare);
