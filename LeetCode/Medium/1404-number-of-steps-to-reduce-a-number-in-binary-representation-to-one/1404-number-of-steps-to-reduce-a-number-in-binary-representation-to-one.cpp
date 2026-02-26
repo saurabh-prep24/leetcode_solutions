@@ -1,5 +1,7 @@
 class Solution {
 public:
+    // time: O(n)
+    // space: O(1) but overflow as 500 dig can't be stored directly
     int convert(string s) {
         unsigned long long a = 0;
         int i = s.size() - 1;
@@ -22,6 +24,8 @@ public:
         return ans;
     }
 
+    // time: O(n)
+    // space: O(1)
     int processEachBit(string s) {
         // consider
         // 100 -> 4 => ans = +1(/2) +1(/2) -> 2 [reached 1]
@@ -53,7 +57,7 @@ public:
         }
         // process last carry also so divide by 2 [since last dig rem = 1]
         // 1+carry = 1 + 1 = 2 [10] => div by 2 => 1
-        if(carry){
+        if (carry) {
             ans++;
         }
         return ans;
@@ -61,7 +65,8 @@ public:
 
     int numSteps(string s) {
         // runtime err as overflow since len is <=500 even
-        // long long cant store it
+        // long long can't store it [cap for unsigned long long
+        // -> 0 to 2^(64)−1) ~ 64 digits]
         // return convert(s);
 
         return processEachBit(s);
