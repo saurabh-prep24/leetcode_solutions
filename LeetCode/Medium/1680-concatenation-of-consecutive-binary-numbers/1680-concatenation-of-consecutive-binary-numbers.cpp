@@ -28,16 +28,13 @@ public:
             => ans = (ans<<4) + i = 11011000 + 100 = 11011100
     */
     int concatenatedBinary(int n) {
-        long long ans = 0;
-        int factor = 2;
-        int bitsCount = 1;
-        int mod = 1e9 + 7;
+        long long ans = 0, bitsCount = 1, mod = 1e9 + 7;
         for (int i = 1; i <= n; i++) {
-            if (i == factor) { // or [i&(i-1)==0]
+            if (i > 1 && (i & (i - 1)) == 0) { // [i&(i-1)==0] - power of 2
                 bitsCount++;
-                factor *= 2;
             }
-            ans = ((ans << bitsCount) % mod + i) % mod; // concatenate with i
+            // either do + or | as bits are 0 while concatenation
+            ans = ((ans << bitsCount) + i) % mod; // concatenate with i
         }
         return (int)ans;
     }
