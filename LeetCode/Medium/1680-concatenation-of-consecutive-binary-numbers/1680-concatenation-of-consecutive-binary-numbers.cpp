@@ -34,7 +34,7 @@ public:
                 bitsCount++;
             }
             // either do + or | as bits are 0 while concatenation
-            ans = ((ans << bitsCount) | i) % mod; // concatenate with i
+            ans = ((ans << bitsCount) % mod + i) % mod; // concatenate with i
         }
         return (int)ans;
     }
