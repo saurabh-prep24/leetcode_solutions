@@ -1,25 +1,21 @@
 class Solution {
 public:
-    void rec(int index, vector<int>& nums, vector<int> curr,
-             vector<vector<int>>& subsets) {
-        // end of nums
-        // push curr to subsets and return
-        if (index >= nums.size()) {
-            subsets.push_back(curr);
+    void helper(vector<int>& nums, vector<vector<int>>& ans, int curr, vector<int> &temp){
+        if(curr>=nums.size()){
+            ans.push_back(temp);
             return;
         }
-
-        // call without nums[index]
-        rec(index + 1, nums, curr, subsets);
-        // call with nums[index]
-        curr.push_back(nums[index]);
-        rec(index + 1, nums, curr, subsets);
+        // cout<<curr+1<<endl;
+        helper(nums, ans, curr+1, temp);
+        temp.push_back(nums[curr]);
+        helper(nums, ans, curr+1, temp);
+        temp.pop_back();
     }
     vector<vector<int>> subsets(vector<int>& nums) {
-        vector<vector<int>> subsets;
-        // fill up with recursion
-        rec(0, nums, {}, subsets);
-        // return filled subsets
-        return subsets;
+        vector<vector<int>> ans;
+        vector<int> temp;
+
+        helper(nums, ans, 0, temp); 
+        return ans;
     }
 };
