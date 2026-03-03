@@ -67,7 +67,7 @@ public:
         }
 
         // right side so invert ans
-        char ans = recOpt(n - 1, k);
+        char ans = recOpt(n - 1, len - k + 1);
         return !(ans - '0') + '0';
     }
 
