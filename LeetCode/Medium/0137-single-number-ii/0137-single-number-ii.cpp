@@ -76,8 +76,8 @@ public:
     }
 
     int singleNumber(vector<int>& nums) {
-        return sortSolve(nums);
-        // return hashSolve(nums);
+        // return sortSolve(nums);
+        return hashSolve(nums);
         // return bitsOpt1(nums);
         // return bitsOpt2(nums);
     }
