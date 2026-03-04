@@ -30,4 +30,8 @@ Leetcode solution for revisions
 | ------- | ------- |
 | [0137-single-number-ii](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0137-single-number-ii/) | Medium |
 | [0260-single-number-iii](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0260-single-number-iii/) | Medium |
+## Database
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0619-biggest-single-number](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/0619-biggest-single-number/) | Easy |
 <!---LeetCode Topics End-->
