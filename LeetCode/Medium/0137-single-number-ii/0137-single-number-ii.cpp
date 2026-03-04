@@ -2,7 +2,7 @@ class Solution {
 public:
     // time: O(32n)
     // space: O(32) ~ O(1)
-    int bitOpt1(vector<int>& nums) {
+    int bitsOpt1(vector<int>& nums) {
         int n = nums.size();
         // count of set bits
         vector<int> count(32, 0);
@@ -52,12 +52,12 @@ public:
     int sortSolve(vector<int>& nums) {
         vector<int> temp = nums;
         sort(temp.begin(), temp.end());
-        for (int i = 0; i < temp.size()-2; i += 3) {
-            if (temp[i] != temp[i+1]){
+        for (int i = 0; i + 2 < temp.size(); i += 3) {
+            if (temp[i] != temp[i + 1]) {
                 return temp[i];
             }
         }
-        return temp[temp.size()-1];
+        return temp[temp.size() - 1];
     }
 
     // time: O(n)
@@ -67,8 +67,8 @@ public:
         for (int i = 0; i < nums.size(); i++) {
             count[nums[i]]++;
         }
-        for(auto i: count){
-            if(i.second){
+        for (auto i : count) {
+            if (i.second) {
                 return i.first;
             }
         }
@@ -77,8 +77,8 @@ public:
 
     int singleNumber(vector<int>& nums) {
         return sortSolve(nums);
-        return hashSolve(nums);
-        return bitsOpt1(nums);
-        return bitsOpt2(nums);
+        // return hashSolve(nums);
+        // return bitsOpt1(nums);
+        // return bitsOpt2(nums);
     }
 };
