@@ -24,11 +24,12 @@ public:
         space: O(1)
     */
     vector<int> optBinary(vector<int>& nums) {
-        long r = 0; // for INT_MIN -> lsb will fail as r-1 will overflow so use long
+        long r = 0; 
         for (auto i : nums) {
             r = r ^ i;
         }
-
+        // for nums having INT_MIN 
+        // -> lsb will fail as r-1 will overflow so use long
         int lsb = (r & (r - 1)) ^ r; // only 1 LSB is set now
         int buc1 = 0;                // nums with lsb same LSB of num
         int buc2 = 0;
