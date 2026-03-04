@@ -68,7 +68,7 @@ public:
             count[nums[i]]++;
         }
         for (auto i : count) {
-            if (i.second) {
+            if (i.second==1) {
                 return i.first;
             }
         }
