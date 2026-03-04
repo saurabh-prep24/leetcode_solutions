@@ -20,15 +20,16 @@ public:
        bucket will give ans for different elem occuring only once for getting
        LSB do -> n&(n-1) ^ n [only LSB is set] then do xor with all elem and
        divide into buckets doing xor among them final will ans in both bucket
-        time: O(N)
-        space: O(1)
+
+       time: O(N)
+       space: O(1)
     */
     vector<int> optBinary(vector<int>& nums) {
-        long r = 0; 
+        long r = 0;
         for (auto i : nums) {
             r = r ^ i;
         }
-        // for nums having INT_MIN 
+        // for nums having INT_MIN
         // -> lsb will fail as r-1 will overflow so use long
         int lsb = (r & (r - 1)) ^ r; // only 1 LSB is set now
         int buc1 = 0;                // nums with lsb same LSB of num
