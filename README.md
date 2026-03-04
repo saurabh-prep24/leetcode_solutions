@@ -18,9 +18,14 @@ Leetcode solution for revisions
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0137-single-number-ii](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0137-single-number-ii/) | Medium |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/1582-special-positions-in-a-binary-matrix/) | Easy |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/1582-special-positions-in-a-binary-matrix/) | Easy |
+## Bit Manipulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0137-single-number-ii](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0137-single-number-ii/) | Medium |
 <!---LeetCode Topics End-->
