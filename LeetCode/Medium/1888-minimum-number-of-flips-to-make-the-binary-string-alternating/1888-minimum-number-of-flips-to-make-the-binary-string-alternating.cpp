@@ -30,6 +30,8 @@ public:
         return ans;
     }
 
+    // time: O(N)
+    // space: O(2N)
     int slidingWindow(string s) {
         // s0 -> s[0] = 0 so 0101....
         // s1 -> s[1] = 0 so 1010....
@@ -84,10 +86,62 @@ public:
         return ans;
     }
 
+    // time : O(N)
+    // space : O(1)
+    int slidingWindowSpaceOpt(string s) {
+        // s0 -> s[0] = 0 so 0101....
+        // s1 -> s[1] = 0 so 1010....
+
+        // using this we can check for each s[i] and build ans
+        // s = s+s; // for input s we can use rotating cyclic index instead
+        int n = s.size();
+        int ans = INT_MAX;
+        int i = 0;
+        int j = 0;
+        int count0 = 0, count1 = 0;
+        // we aleady know s0 and s1 for even and odd i or j
+        while (j < 2 * n) {
+            char expectedS0 = j%2?'0':'1';
+            char expectedS1 = j%2?'1':'0';
+            // add count
+            if (s[j % n] != expectedS0) {
+                count0++;
+            }
+
+            if (s[j % n] != expectedS1) {
+                count1++;
+            }
+            // shrink window
+            if (j - i + 1 > n) {
+                expectedS0 = i%2?'0':'1';
+                expectedS1 = i%2?'1':'0';
+                // remove excluded char from count
+                if (s[i % n] != expectedS0) {
+                    count0--;
+                }
+                // remove excluded char from count
+                if (s[i % n] != expectedS1) {
+                    count1--;
+                }
+                // inc left
+                i++;
+            }
+
+            // update ans
+            if (j - i + 1 == n) {
+                ans = min({ans, count0, count1});
+            }
+            // inc right
+            j++;
+        }
+        return ans;
+    }
+
     // PRE_REQ: solve below where only type 2 ops is possible
     // https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/description
     int minFlips(string s) {
         // return brute(s);
-        return slidingWindow(s);
+        // return slidingWindow(s);
+        return slidingWindowSpaceOpt(s);
     }
 };
