@@ -10,7 +10,7 @@ public:
         for (auto i : nums) {
             unique.insert(i);
         }
-        // convert to required format with bitmask 
+        // convert to required format with bitmask
         // this is used to create all sub-seq
         for (int mask = 0; mask < (1 << n); mask++) {
             string s(n, '0');
@@ -30,7 +30,7 @@ public:
     // space: O(n)
     void solveRec(vector<string>& nums, unordered_set<string>& unique,
                   string temp, string& ans) {
-        // temp reached nums.size() 
+        // temp reached nums.size()
         // [same as str len in ques otherwise len str should be used]
         if (temp.size() == nums.size()) {
             // check if not present in set
@@ -62,8 +62,29 @@ public:
         return ans;
     }
 
+    // time: O(N)
+    // space: O(1)
+    string solveDiagonalTrick(vector<string>& nums) {
+        // for each nums[i]
+        // invert nums[i] for each diagonals str
+        // since nums.size() is same as len of str
+        // we can get unique str with this
+        // n = 2
+        // 1 1
+        // 0 1
+        // change nums[0][0] = 0
+        // change nums[1][1] = 1
+        // ans = 01
+
+        string ans = "";
+        for (int i = 0; i < nums.size(); i++) {
+            ans += (nums[i][i] == '0') ? '1' : '0';
+        }
+        return ans;
+    }
     string findDifferentBinaryString(vector<string>& nums) {
         // return bitMasking(nums);
-        return solveWithDFS(nums);
+        // return solveWithDFS(nums);
+        return solveDiagonalTrick(nums);
     }
 };
