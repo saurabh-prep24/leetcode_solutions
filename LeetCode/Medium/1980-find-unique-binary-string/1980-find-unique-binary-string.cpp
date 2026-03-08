@@ -1,6 +1,8 @@
 class Solution {
 public:
-    string findDifferentBinaryString(vector<string>& nums) {
+    // time: O(n * 2^n)
+    // space: On)
+    string bitMasking(vector<string>& nums) {
         unordered_set<string> unique;
         int n = nums.size();
         for (auto i : nums) {
@@ -21,5 +23,36 @@ public:
         //     cout<<i<<endl;
         // }
         return "";
+    }
+
+    // time: O(2^n)
+    // space: O(n)
+    void solveRec(vector<string>& nums, unordered_set<string>& unique,
+                  string temp, string& ans) {
+        if (temp.size() == nums.size()) {
+            if (unique.count(temp) == 0) {
+                ans = temp;
+            }
+            return;
+        }
+
+        solveRec(nums, unique, temp + '0', ans);
+        solveRec(nums, unique, temp + '1', ans);
+    }
+    string solveWithDFS(vector<string>& nums) {
+        unordered_set<string> unique;
+        for (auto i : nums) {
+            unique.insert(i);
+        }
+
+        string temp = "", ans = "";
+        solveRec(nums, unique, temp, ans);
+        return ans;
+    }
+
+    
+    string findDifferentBinaryString(vector<string>& nums) {
+        // return bitMasking(nums);
+        return solveWithDFS(nums);
     }
 };
