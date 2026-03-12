@@ -73,18 +73,6 @@ public:
         reverse(nums.begin() + k, nums.end());
     }
 
-    void juglingRotate(vector<int>& nums, int k) {
-        // break arr into groups of k
-        // then replace all elem to next group with cyclic arr
-        int n = nums.size();
-        int grps = n % 2 == 0 ? n / k : n / k + 1;
-        for (int iter = 0; iter < grps; i++) {
-            for (int i = 0; i < k; i++) {
-                int first = nums[i];
-            }
-        }
-    }
-
     void rotate(vector<int>& nums, int k) {
         int n = nums.size();
         k = k % n;
