@@ -21,6 +21,21 @@ public:
 
     // time: O(n)
     // space: O(n)
+    void rotateTempCopy(vector<int>& nums, int k) {
+        int n = nums.size();
+        k = k % n;
+
+        vector<int> temp(n);
+
+        for (int i = 0; i < n; i++) {
+            temp[(i + k) % n] = nums[i];
+        }
+
+        nums = temp;
+    }
+
+    // time: O(n)
+    // space: O(k) - lesser space than above
     void copyToRotate(vector<int>& nums, int k) {
         int n = nums.size();
         vector<int> rem;
@@ -57,12 +72,26 @@ public:
         reverse(nums.begin(), nums.begin() + k);
         reverse(nums.begin() + k, nums.end());
     }
+
+    void juglingRotate(vector<int>& nums, int k) {
+        // break arr into groups of k
+        // then replace all elem to next group with cyclic arr
+        int n = nums.size();
+        int grps = n % 2 == 0 ? n / k : n / k + 1;
+        for (int iter = 0; iter < grps; i++) {
+            for (int i = 0; i < k; i++) {
+                int first = nums[i];
+            }
+        }
+    }
+
     void rotate(vector<int>& nums, int k) {
         int n = nums.size();
         k = k % n;
 
         // rotateUptoK(nums, k);
         // copyToRotate(nums, k);
+        // rotateTempCopy(nums, k);
         arrInverse(nums, k);
     }
 };
