@@ -4,6 +4,9 @@ public:
         vector<int> sorted = nums;
         sort(sorted.begin(), sorted.end());
         int n = nums.size();
+        if(nums == sorted){
+            return 1;
+        }
         for (int i = 0; i < n; i++) {
             if (nums[i] == sorted[0]) {
                 // check remaining
