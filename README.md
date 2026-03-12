@@ -36,6 +36,7 @@ Leetcode solution for revisions
 | [0137-single-number-ii](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0137-single-number-ii/) | Medium |
 | [0260-single-number-iii](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0260-single-number-iii/) | Medium |
 | [0476-number-complement](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/0476-number-complement/) | Easy |
+| [1009-complement-of-base-10-integer](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/1009-complement-of-base-10-integer/) | Easy |
 ## Database
 | Problem Name | Difficulty |
 | ------- | ------- |
