@@ -18,9 +18,9 @@ public:
         return st;
     }
 
-    // find upper bound of target then loop on 
     // time: O(nlog(m+n))
-    int searchBinary(vector<vector<int>>& matrix, int target){
+    int searchBinary(vector<vector<int>>& matrix, int target) {
+        // find upper bound of target then loop on
         int n = matrix.size(), m = matrix[0].size();
 
         vector<int> down;
@@ -37,7 +37,7 @@ public:
 
         for (int i = possibleRow; i < n && i >= 0; i--) {
             // if last is smaller than target then we can skip all prev rows
-            if(matrix[i][m-1] <target){
+            if (matrix[i][m - 1] < target) {
                 break;
             }
             int possibleCol = binarySearch(matrix[i], target);
@@ -49,11 +49,36 @@ public:
         return 0;
     }
 
+    // time: O(m+n)
+    // space: O(1)
+    bool checkTopRight(vector<vector<int>>& matrix, int target) {
+        // start from top - right
+        // 1. if curr is target return
+        // 2. if curr < target => move down [skipping row]
+        // 2. if curr > target => move left [skippong col]
+        int n = matrix.size(), m = matrix[0].size();
+        int i = 0, j = m - 1;
+        while (i < n && j >= 0) {
+            int curr = matrix[i][j];
+            if (curr == target) {
+                return 1;
+            } else if (curr < target) {
+                i++;
+            } else {
+                j--;
+            }
+        }
+        return false;
+    }
+
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
         // brute force
         // check all elem - O(N*M)
 
         // time: O(N*log(m+n))
-        return searchBinary(matrix, target);
+        // return searchBinary(matrix, target);
+
+        // time: O(n+m)
+        return checkTopRight(matrix, target);
     }
 };
