@@ -17,7 +17,10 @@ public:
         // cout<<st<<" "<<end<<endl;
         return st;
     }
-    bool searchMatrix(vector<vector<int>>& matrix, int target) {
+
+    // find upper bound of target then loop on 
+    // time: O(nlog(m+n))
+    int searchBinary(vector<vector<int>>& matrix, int target){
         int n = matrix.size(), m = matrix[0].size();
 
         vector<int> down;
@@ -30,17 +33,27 @@ public:
             return 1;
         }
 
-        cout << possibleRow << endl;
-
-        possibleRow = possibleRow>=n ?  n-1: possibleRow;
+        possibleRow = possibleRow >= n ? n - 1 : possibleRow;
 
         for (int i = possibleRow; i < n && i >= 0; i--) {
+            // if last is smaller than target then we can skip all prev rows
+            if(matrix[i][m-1] <target){
+                break;
+            }
             int possibleCol = binarySearch(matrix[i], target);
-            cout << possibleCol << endl;
+            // cout << possibleCol << endl;
             if (possibleCol == -1) {
                 return 1;
             }
         }
         return 0;
+    }
+
+    bool searchMatrix(vector<vector<int>>& matrix, int target) {
+        // brute force
+        // check all elem - O(N*M)
+
+        // time: O(N*log(m+n))
+        return searchBinary(matrix, target);
     }
 };
