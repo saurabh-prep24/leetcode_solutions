@@ -6,7 +6,7 @@ public:
     // build all happy str
     // void getAllHappyStr(int n, string curr, vector<string> &arr, char last,
     // int& k) {
-    void getAllHappyStr(int n, string curr, int& k, string &ans) {
+    void getAllHappyStr(int n, string &curr, int& k, string &ans) {
         if (curr.size() == n) {
             // push to list of happy arr
             // arr.push_back(curr);
@@ -25,13 +25,20 @@ public:
                 continue;
             }
             // getAllHappyStr(n, curr + i, arr, i, k);
-            getAllHappyStr(n, curr + i, k, ans);
+            // getAllHappyStr(n, curr + i, k, ans); -> 
+            // curr + i -> O(N) space due to new copy
+            // using curr.push and pop is O(1)
+            curr.push_back(i);
+            getAllHappyStr(n, curr, k, ans);
+            curr.pop_back();
             if (ans.size() > 0) {
                 return;
             }
         }
     }
 
+    // time: O(3 * 2^(n-1)) ~ O(2^n)
+    // space: O(n)
     string getHappyString(int n, int k) {
         vector<string> happyStrs;
         string curr = "";
