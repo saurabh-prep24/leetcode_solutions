@@ -23,6 +23,7 @@ Leetcode solution for revisions
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0034-find-first-and-last-position-of-element-in-sorted-array/) | Medium |
 | [0074-search-a-2d-matrix](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0074-search-a-2d-matrix/) | Medium |
 | [0137-single-number-ii](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0137-single-number-ii/) | Medium |
 | [0189-rotate-array](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0189-rotate-array/) | Medium |
@@ -80,6 +81,7 @@ Leetcode solution for revisions
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0034-find-first-and-last-position-of-element-in-sorted-array/) | Medium |
 | [0074-search-a-2d-matrix](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0074-search-a-2d-matrix/) | Medium |
 | [0240-search-a-2d-matrix-ii](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0240-search-a-2d-matrix-ii/) | Medium |
 ## Divide and Conquer
