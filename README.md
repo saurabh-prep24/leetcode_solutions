@@ -24,6 +24,7 @@ Leetcode solution for revisions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0034-find-first-and-last-position-of-element-in-sorted-array/) | Medium |
+| [0048-rotate-image](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0048-rotate-image/) | Medium |
 | [0074-search-a-2d-matrix](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0074-search-a-2d-matrix/) | Medium |
 | [0137-single-number-ii](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0137-single-number-ii/) | Medium |
 | [0189-rotate-array](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0189-rotate-array/) | Medium |
@@ -36,6 +37,7 @@ Leetcode solution for revisions
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0048-rotate-image](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0048-rotate-image/) | Medium |
 | [0074-search-a-2d-matrix](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0074-search-a-2d-matrix/) | Medium |
 | [0240-search-a-2d-matrix-ii](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0240-search-a-2d-matrix-ii/) | Medium |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/1582-special-positions-in-a-binary-matrix/) | Easy |
@@ -72,6 +74,7 @@ Leetcode solution for revisions
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0048-rotate-image](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0048-rotate-image/) | Medium |
 | [0189-rotate-array](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0189-rotate-array/) | Medium |
 | [0202-happy-number](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/0202-happy-number/) | Easy |
 | [1622-fancy-sequence](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Hard/1622-fancy-sequence/) | Hard |
