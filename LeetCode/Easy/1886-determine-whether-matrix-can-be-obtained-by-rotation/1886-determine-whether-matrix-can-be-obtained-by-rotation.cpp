@@ -48,3 +48,26 @@ public:
         return 0;
     }
 };
+/*
+*** rotate elem by relation - extra space is required
+[123]
+[456]
+[789]
+----
+[741]
+[852]
+[963]
+mat[0][0] = rot[0][2]
+mat[2][0] = rot[0][0]
+rot[j][m-i-1] [m=3]
+----
+*** other method for rotation - in-place rotation [no space required]
+1. get transpose of mat
+[147]
+[258]
+[369]
+2. swap col from left and right [col0 <-> col2]
+[741]
+[852]
+[963]
+*/
