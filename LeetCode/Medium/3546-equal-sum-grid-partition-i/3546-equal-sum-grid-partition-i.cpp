@@ -38,16 +38,17 @@ public:
         // we dont really needed to store sum in arr as curr sum can be directly
         // used
         long long currSum = 0;
+        long long targetSum = totalSum / 2;
         for (int i = 0; i < n; i++) {
             // currSum += rowSum[i];
             for (int j = 0; j < m; j++) {
                 currSum += grid[i][j];
             }
             // half sum match found
-            if (2 * currSum == totalSum) {
+            if (currSum == targetSum) {
                 // cout << "row" << currSum << " " << totalSum << endl;
                 return 1;
-            } else if (2 * currSum > totalSum) {
+            } else if (currSum > targetSum) {
                 // sum exceeding half then break as all elems>0
                 break;
             }
@@ -61,10 +62,10 @@ public:
                 currSum += grid[j][i];
             }
             // half sum match found
-            if (2 * currSum == totalSum) {
+            if (currSum == targetSum) {
                 // cout << "col" << currSum << " " << totalSum << endl;
                 return 1;
-            } else if (2 * currSum > totalSum) {
+            } else if (currSum > targetSum) {
                 // sum exceeding half then break as all elems>0
                 break;
             }
