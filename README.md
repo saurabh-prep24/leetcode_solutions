@@ -24,6 +24,7 @@ Leetcode solution for revisions
 | ------- | ------- |
 | [0657-robot-return-to-origin](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/0657-robot-return-to-origin/) | Easy |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/1545-find-kth-bit-in-nth-binary-string/) | Medium |
+| [3653-xor-after-range-multiplication-queries-i](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3653-xor-after-range-multiplication-queries-i/) | Medium |
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -40,6 +41,7 @@ Leetcode solution for revisions
 | [1980-find-unique-binary-string](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/1980-find-unique-binary-string/) | Medium |
 | [3546-equal-sum-grid-partition-i](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3546-equal-sum-grid-partition-i/) | Medium |
 | [3643-flip-square-submatrix-vertically](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/3643-flip-square-submatrix-vertically/) | Easy |
+| [3653-xor-after-range-multiplication-queries-i](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3653-xor-after-range-multiplication-queries-i/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -103,6 +105,7 @@ Leetcode solution for revisions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0240-search-a-2d-matrix-ii](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0240-search-a-2d-matrix-ii/) | Medium |
+| [3653-xor-after-range-multiplication-queries-i](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3653-xor-after-range-multiplication-queries-i/) | Medium |
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
