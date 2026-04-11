@@ -1,14 +1,13 @@
 class Solution {
 public:
     int getDist(vector<int>& v) {
-        int i = 0, j = 1, k = 2;
+        int k = 2;
         int d = INT_MAX;
         while (k < v.size()) {
-            int s = abs(v[i] - v[j]) + abs(v[j] - v[k]) + abs(v[k] - v[i]);
+            int s = abs(v[k - 2] - v[k - 1]) + abs(v[k - 1] - v[k]) +
+                    abs(v[k] - v[k - 2]);
             d = min(d, s);
             k++;
-            j++;
-            i++;
         }
         return d;
     }
