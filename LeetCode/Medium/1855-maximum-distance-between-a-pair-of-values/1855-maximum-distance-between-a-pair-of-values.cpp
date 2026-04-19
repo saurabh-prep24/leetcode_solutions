@@ -63,7 +63,12 @@ public:
                 j++;
             } else {
                 i++;
-                j = i;
+                // dont start j = i every time as it would be o(n*n)
+                // keep j there only for max ans only move j
+                // when its behind i otherwise move j backward will
+                // not give max ans for (j-i) after doing i++
+                if(j<i)
+                    j = i;
             }
         }
         return ans;
