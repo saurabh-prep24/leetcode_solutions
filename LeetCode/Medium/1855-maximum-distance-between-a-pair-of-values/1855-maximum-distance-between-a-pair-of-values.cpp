@@ -68,8 +68,8 @@ public:
                 // keep j there only for max ans only move j
                 // when its behind i otherwise move j backward will
                 // not give max ans for (j-i) after doing i++
-                // if(j<i)
-                //     j = i;
+                if (i > j)
+                    j = i;
             }
         }
         return ans;
