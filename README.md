@@ -48,6 +48,7 @@ Leetcode solution for revisions
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3653-xor-after-range-multiplication-queries-i/) | Medium |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/3740-minimum-distance-between-three-equal-elements-i/) | Easy |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3741-minimum-distance-between-three-equal-elements-ii/) | Medium |
+| [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3761-minimum-absolute-distance-between-mirror-pairs/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -86,6 +87,7 @@ Leetcode solution for revisions
 | [3488-closest-equal-element-queries](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3488-closest-equal-element-queries/) | Medium |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/3740-minimum-distance-between-three-equal-elements-i/) | Easy |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3741-minimum-distance-between-three-equal-elements-ii/) | Medium |
+| [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3761-minimum-absolute-distance-between-mirror-pairs/) | Medium |
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -98,6 +100,7 @@ Leetcode solution for revisions
 | [0189-rotate-array](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0189-rotate-array/) | Medium |
 | [0202-happy-number](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/0202-happy-number/) | Easy |
 | [1622-fancy-sequence](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Hard/1622-fancy-sequence/) | Hard |
+| [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3761-minimum-absolute-distance-between-mirror-pairs/) | Medium |
 | [3783-mirror-distance-of-an-integer](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/3783-mirror-distance-of-an-integer/) | Easy |
 ## Two Pointers
 | Problem Name | Difficulty |
