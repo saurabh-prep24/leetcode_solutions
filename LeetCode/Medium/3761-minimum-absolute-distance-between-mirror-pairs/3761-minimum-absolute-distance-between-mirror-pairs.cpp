@@ -80,8 +80,25 @@ public:
         }
         return ans == INT_MAX ? -1 : ans;
     }
+
+    // time: O(n)
+    // space: O(n)
+    int bestOpt(vector<int>& nums) {
+        unordered_map<int, int> lastIndex;
+        int ans = INT_MAX, n = nums.size();
+        for (int i = 0; i < n; i++) {
+            int curr = nums[i];
+            if (lastIndex.count(curr)) {
+                ans = min(ans, abs(lastIndex[curr] - i));
+            }
+            int r = rev(nums[i]);
+            lastIndex[r] = i;
+        }
+        return ans == INT_MAX ? -1 : ans;
+    }
     int minMirrorPairDistance(vector<int>& nums) {
         // return brute(nums);
-        return opt(nums);
+        // return opt(nums);
+        return bestOpt(nums);
     }
 };
