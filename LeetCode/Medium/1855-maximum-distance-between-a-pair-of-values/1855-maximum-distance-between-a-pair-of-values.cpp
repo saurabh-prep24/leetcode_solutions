@@ -57,6 +57,7 @@ public:
         int ans = 0;
         int n1 = nums1.size(), n2 = nums2.size();
         int i = 0, j = 0;
+
         while (i < n1 && j < n2) {
             if (nums1[i] <= nums2[j]) {
                 ans = max(ans, j - i);
@@ -67,8 +68,8 @@ public:
                 // keep j there only for max ans only move j
                 // when its behind i otherwise move j backward will
                 // not give max ans for (j-i) after doing i++
-                if(j<i)
-                    j = i;
+                // if(j<i)
+                //     j = i;
             }
         }
         return ans;
