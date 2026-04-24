@@ -46,9 +46,9 @@ public:
         vector<int> prefixSum = nums;
         vector<int> sufixSum = nums;
         int n = nums.size();
-        for (int i = 0; i < n; i++) {
-            prefixSum[i] += (i > 0) ? prefixSum[i - 1] : 0;
-            sufixSum[n - i - 1] += (i < n - 1) ? sufixSum[n - i] : 0;
+        for (int i = 1; i < n; i++) {
+            prefixSum[i] += prefixSum[i - 1];
+            sufixSum[n - i - 1] += sufixSum[n - i];
         }
         vector<int> ans(n, 0);
         for (int i = 0; i < n; i++) {
@@ -61,7 +61,7 @@ public:
 
     vector<int> getSumAbsoluteDifferences(vector<int>& nums) {
         // return brute(nums);
-        // return prefixSufixSum(nums);
-        return prefixSum(nums);
+        return prefixSufixSum(nums);
+        // return prefixSum(nums);
     }
 };
