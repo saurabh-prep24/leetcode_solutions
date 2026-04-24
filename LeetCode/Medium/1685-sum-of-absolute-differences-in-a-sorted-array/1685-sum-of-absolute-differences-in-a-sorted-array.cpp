@@ -61,7 +61,7 @@ public:
 
     vector<int> getSumAbsoluteDifferences(vector<int>& nums) {
         // return brute(nums);
-        return prefixSufixSum(nums);
-        // return prefixSum(nums);
+        // return prefixSufixSum(nums);
+        return prefixSum(nums);
     }
 };
