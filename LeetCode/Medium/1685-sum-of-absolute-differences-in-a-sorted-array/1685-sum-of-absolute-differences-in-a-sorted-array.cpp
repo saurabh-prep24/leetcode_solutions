@@ -41,8 +41,29 @@ public:
         return ans;
     }
 
+    // use prefix and sufix sum arr to get sum in left and right
+    vector<int> prefixSufixSum(vector<int>& nums) {
+        vector<int> prefixSum = nums;
+        vector<int> sufixSum = nums;
+        int n = nums.size();
+        for (int i = 0; i < n; i++) {
+            prefixSum[i] += (i > 0) ? prefixSum[i - 1] : 0;
+        }
+        for (int i = n - 2; i >= 0; i--) {
+            sufixSum[i] += (i < n) ? sufixSum[i + 1] : 0;
+        }
+        vector<int> ans;
+        for (int i = 0; i < n; i++) {
+            int leftSum = abs(nums[i] * i - (prefixSum[i] - nums[i]));
+            int rightSum = abs(nums[i] * (n - 1 - i) - (sufixSum[i] - nums[i]));
+            ans.push_back(leftSum + rightSum);
+        }
+        return ans;
+    }
+
     vector<int> getSumAbsoluteDifferences(vector<int>& nums) {
         // return brute(nums);
-        return prefixSum(nums);
+        return prefixSufixSum(nums);
+        // return prefixSum(nums);
     }
 };
