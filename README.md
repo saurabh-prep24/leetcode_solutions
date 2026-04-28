@@ -44,6 +44,7 @@ Leetcode solution for revisions
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
 | [1980-find-unique-binary-string](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/1980-find-unique-binary-string/) | Medium |
+| [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/2078-two-furthest-houses-with-different-colors/) | Easy |
 | [2121-intervals-between-identical-elements](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/2121-intervals-between-identical-elements/) | Medium |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
@@ -63,6 +64,7 @@ Leetcode solution for revisions
 | [0240-search-a-2d-matrix-ii](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0240-search-a-2d-matrix-ii/) | Medium |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/1582-special-positions-in-a-binary-matrix/) | Easy |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
+| [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [3546-equal-sum-grid-partition-i](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3546-equal-sum-grid-partition-i/) | Medium |
 | [3643-flip-square-submatrix-vertically](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/3643-flip-square-submatrix-vertically/) | Easy |
 ## Bit Manipulation
@@ -109,6 +111,7 @@ Leetcode solution for revisions
 | [0202-happy-number](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/0202-happy-number/) | Easy |
 | [1622-fancy-sequence](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Hard/1622-fancy-sequence/) | Hard |
 | [1685-sum-of-absolute-differences-in-a-sorted-array](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/1685-sum-of-absolute-differences-in-a-sorted-array/) | Medium |
+| [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3761-minimum-absolute-distance-between-mirror-pairs/) | Medium |
 | [3783-mirror-distance-of-an-integer](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/3783-mirror-distance-of-an-integer/) | Easy |
 ## Two Pointers
@@ -153,6 +156,7 @@ Leetcode solution for revisions
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
