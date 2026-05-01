@@ -26,6 +26,7 @@ Leetcode solution for revisions
 | ------- | ------- |
 | [0657-robot-return-to-origin](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/0657-robot-return-to-origin/) | Easy |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/1545-find-kth-bit-in-nth-binary-string/) | Medium |
+| [1929-concatenation-of-array](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/1929-concatenation-of-array/) | Easy |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3653-xor-after-range-multiplication-queries-i/) | Medium |
 ## Array
 | Problem Name | Difficulty |
@@ -44,6 +45,7 @@ Leetcode solution for revisions
 | [1848-minimum-distance-to-the-target-element](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/1848-minimum-distance-to-the-target-element/) | Easy |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
+| [1929-concatenation-of-array](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/1929-concatenation-of-array/) | Easy |
 | [1980-find-unique-binary-string](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/1980-find-unique-binary-string/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/2078-two-furthest-houses-with-different-colors/) | Easy |
