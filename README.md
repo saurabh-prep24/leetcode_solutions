@@ -39,6 +39,7 @@ Leetcode solution for revisions
 | [0240-search-a-2d-matrix-ii](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0240-search-a-2d-matrix-ii/) | Medium |
 | [0260-single-number-iii](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0260-single-number-iii/) | Medium |
 | [0396-rotate-function](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0396-rotate-function/) | Medium |
+| [1470-shuffle-the-array](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/1470-shuffle-the-array/) | Easy |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/1582-special-positions-in-a-binary-matrix/) | Easy |
 | [1685-sum-of-absolute-differences-in-a-sorted-array](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/1685-sum-of-absolute-differences-in-a-sorted-array/) | Medium |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/1752-check-if-array-is-sorted-and-rotated/) | Easy |
