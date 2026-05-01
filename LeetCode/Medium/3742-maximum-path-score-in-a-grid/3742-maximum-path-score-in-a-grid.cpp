@@ -90,12 +90,13 @@ public:
             n, vector<vector<int>>(m, vector<int>(k + 1, -1)));
         for (int x = n - 1; x >= 0; x--) {
             for (int y = m - 1; y >= 0; y--) {
-                for (int c = k; c >=0; c--) {
-                    int newCost = c + cost(grid[x][y]);
-                    if (newCost > k) {
+                for (int c = 0; c <= k; c++) {
+                    // cost > curr cost (c)
+                    if (cost(grid[x][y]) > c) {
                         continue;
                     }
 
+                    // final cell
                     if (x == n - 1 && y == m - 1) {
                         // score at last cell
                         dp[x][y][c] = grid[x][y];
@@ -103,13 +104,15 @@ public:
                     }
 
                     int right = -1, down = -1;
+                    // rem cost
+                    int rem = c - cost(grid[x][y]);
                     if (y + 1 < m) {
                         // move right
-                        right = dp[x][y + 1][newCost];
+                        right = dp[x][y + 1][rem];
                     }
                     if (x + 1 < n) {
                         // move down
-                        down = dp[x + 1][y][newCost];
+                        down = dp[x + 1][y][rem];
                     }
                     // get max score
                     int maxi = max(right, down);
@@ -121,7 +124,7 @@ public:
                 }
             }
         }
-        return dp[0][0][0];
+        return dp[0][0][k];
     }
 
     int maxPathScore(vector<vector<int>>& grid, int k) {
