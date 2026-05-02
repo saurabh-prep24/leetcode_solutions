@@ -111,9 +111,45 @@ public:
         }
         return ans;
     }
+
+    int solveRecDP(int n, vector<int>& dp) {
+        if (n == 0 || n == 1)
+            return dp[n] = 0;
+
+        if (dp[n] != INT_MIN) {
+            return dp[n];
+        }
+        int rem = solveRecDP(n / 10, dp);
+        // if rem is invalid then return
+        if (rem == -1)
+            return dp[n] = -1;
+        int d = n % 10;
+        // any invalid then return false
+        if (d == 3 || d == 4 || d == 7) {
+            return dp[n] = -1;
+        }
+        // changing dig found so return true
+        if (d == 2 || d == 5 || d == 6 || d == 9) {
+            return dp[n] = 1;
+        }
+        // return prev val
+        // as curr dig is same so return prev ans
+        return dp[n] = rem;
+    }
+    int recDP(int n) {
+        int ans = 0;
+        vector<int> dp(n + 1, INT_MIN);
+        for (int i = 1; i <= n; i++) {
+            if (solveRecDP(i, dp) == 1) {
+                ans++;
+            }
+        }
+        return ans;
+    }
     int rotatedDigits(int n) {
         // return brute(n);
-        return bruteSimple(n);
+        // return bruteSimple(n);
         // return rec(n);
+        return recDP(n);
     }
 };
