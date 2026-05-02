@@ -33,7 +33,7 @@ public:
         vector<int> ans(n, -1);
         stack<int> st;
         for (int i = n - 1; i >= 0; i--) {
-            while (st.size() > 0 && arr[st.top()] >= arr[i]) {
+            while (st.size() > 0 && arr[st.top()] > arr[i]) {
                 st.pop();
             }
             ans[i] = st.size() > 0 ? st.top() : -1;
