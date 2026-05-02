@@ -48,6 +48,7 @@ Leetcode solution for revisions
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/1365-how-many-numbers-are-smaller-than-the-current-number/) | Easy |
 | [1441-build-an-array-with-stack-operations](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/1441-build-an-array-with-stack-operations/) | Medium |
 | [1470-shuffle-the-array](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/1470-shuffle-the-array/) | Easy |
+| [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/1475-final-prices-with-a-special-discount-in-a-shop/) | Easy |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/1582-special-positions-in-a-binary-matrix/) | Easy |
 | [1685-sum-of-absolute-differences-in-a-sorted-array](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/1685-sum-of-absolute-differences-in-a-sorted-array/) | Medium |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/1752-check-if-array-is-sorted-and-rotated/) | Easy |
@@ -200,4 +201,9 @@ Leetcode solution for revisions
 | [0150-evaluate-reverse-polish-notation](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0636-exclusive-time-of-functions](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0636-exclusive-time-of-functions/) | Medium |
 | [1441-build-an-array-with-stack-operations](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/1441-build-an-array-with-stack-operations/) | Medium |
+| [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/1475-final-prices-with-a-special-discount-in-a-shop/) | Easy |
+## Monotonic Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/1475-final-prices-with-a-special-discount-in-a-shop/) | Easy |
 <!---LeetCode Topics End-->
