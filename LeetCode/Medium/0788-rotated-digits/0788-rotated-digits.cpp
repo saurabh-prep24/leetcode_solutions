@@ -82,7 +82,7 @@ public:
     }
 
     int solveRec(int n) {
-        if (n == 0||n==1)
+        if (n == 0 || n == 1)
             return 0;
 
         int rem = solveRec(n / 10);
@@ -113,7 +113,7 @@ public:
     }
     int rotatedDigits(int n) {
         // return brute(n);
-        // return bruteSimple(n);
-        return rec(n);
+        return bruteSimple(n);
+        // return rec(n);
     }
 };
