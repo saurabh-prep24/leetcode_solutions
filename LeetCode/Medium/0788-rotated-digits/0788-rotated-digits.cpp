@@ -146,10 +146,41 @@ public:
         }
         return ans;
     }
+
+    int tab(int n) {
+        int ans = 0;
+        vector<int> dp(n + 1, 0);
+        for (int i = 1; i <= n; i++) {
+            int rem = dp[i / 10];
+            int d = i % 10;
+
+            // if rem is invalid then return
+            if (rem == -1) {
+                dp[i] = -1;
+            }
+            // any invalid then return false
+            else if (d == 3 || d == 4 || d == 7) {
+                dp[i] = -1;
+            }
+            // changing dig found so return true
+            else if (d == 2 || d == 5 || d == 6 || d == 9) {
+                dp[i] = 1;
+            } else
+                // return prev val
+                // as curr dig is same so return prev ans
+                dp[i] = rem;
+
+            if (dp[i] == 1) {
+                ans++;
+            }
+        }
+        return ans;
+    }
     int rotatedDigits(int n) {
         // return brute(n);
         // return bruteSimple(n);
         // return rec(n);
-        return recDP(n);
+        // return recDP(n);
+        return tab(n);
     }
 };
