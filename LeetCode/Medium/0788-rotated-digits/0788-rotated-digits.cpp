@@ -16,7 +16,7 @@ public:
             return 9;
         case 9:
             return 6;
-        defaul:
+        default:
             return -1;
         }
         return -1;
@@ -40,6 +40,7 @@ public:
         // cout << "getD: " << t << " " << rotDig << endl;
         return t != rotDig;
     }
+    // time: O(N*logN)
     int brute(int n) {
         int ans = 0;
         for (int i = 1; i <= n; i++) {
@@ -51,5 +52,68 @@ public:
         }
         return ans;
     }
-    int rotatedDigits(int n) { return brute(n); }
+
+    // time: O(N*logN)
+    // no need to get retotate num
+    // just check if its valid and any dig is changing present
+    int bruteSimple(int n) {
+        int ans = 0;
+        for (int i = 1; i <= n; i++) {
+            bool isValid = 1;
+            bool hasChange = 0;
+            int curr = i;
+            while (curr) {
+                int d = curr % 10;
+                if (d == 3 || d == 4 || d == 7) {
+                    isValid = 0;
+                    break;
+                } else if (d == 2 || d == 5 || d == 6 || d == 9) {
+                    // dont break
+                    // check for all dig are valid
+                    hasChange = 1;
+                }
+                curr /= 10;
+            }
+            if (isValid && hasChange) {
+                ans++;
+            }
+        }
+        return ans;
+    }
+
+    int solveRec(int n) {
+        if (n == 0||n==1)
+            return 0;
+
+        int rem = solveRec(n / 10);
+        // if rem is invalid then return
+        if (rem == -1)
+            return -1;
+        int d = n % 10;
+        // any invalid then return false
+        if (d == 3 || d == 4 || d == 7) {
+            return -1;
+        }
+        // changing dig found so return true
+        if (d == 2 || d == 5 || d == 6 || d == 9) {
+            return 1;
+        }
+        // return prev val
+        // as curr dig is same so return prev ans
+        return rem;
+    }
+    int rec(int n) {
+        int ans = 0;
+        for (int i = 1; i <= n; i++) {
+            if (solveRec(i) == 1) {
+                ans++;
+            }
+        }
+        return ans;
+    }
+    int rotatedDigits(int n) {
+        // return brute(n);
+        // return bruteSimple(n);
+        return rec(n);
+    }
 };
