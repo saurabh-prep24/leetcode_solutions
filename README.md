@@ -99,6 +99,7 @@ Leetcode solution for revisions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0396-rotate-function](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0396-rotate-function/) | Medium |
+| [0788-rotated-digits](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0788-rotated-digits/) | Medium |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/1888-minimum-number-of-flips-to-make-the-binary-string-alternating/) | Medium |
 | [3742-maximum-path-score-in-a-grid](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3742-maximum-path-score-in-a-grid/) | Medium |
 ## Sliding Window
@@ -133,6 +134,7 @@ Leetcode solution for revisions
 | [0189-rotate-array](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0189-rotate-array/) | Medium |
 | [0202-happy-number](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/0202-happy-number/) | Easy |
 | [0396-rotate-function](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0396-rotate-function/) | Medium |
+| [0788-rotated-digits](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0788-rotated-digits/) | Medium |
 | [1622-fancy-sequence](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Hard/1622-fancy-sequence/) | Hard |
 | [1685-sum-of-absolute-differences-in-a-sorted-array](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/1685-sum-of-absolute-differences-in-a-sorted-array/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
