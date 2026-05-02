@@ -39,6 +39,7 @@ Leetcode solution for revisions
 | [0240-search-a-2d-matrix-ii](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0240-search-a-2d-matrix-ii/) | Medium |
 | [0260-single-number-iii](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0260-single-number-iii/) | Medium |
 | [0396-rotate-function](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0396-rotate-function/) | Medium |
+| [0448-find-all-numbers-disappeared-in-an-array](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/0448-find-all-numbers-disappeared-in-an-array/) | Easy |
 | [0485-max-consecutive-ones](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/0485-max-consecutive-ones/) | Easy |
 | [0645-set-mismatch](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/0645-set-mismatch/) | Easy |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/1365-how-many-numbers-are-smaller-than-the-current-number/) | Easy |
@@ -102,6 +103,7 @@ Leetcode solution for revisions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0202-happy-number](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/0202-happy-number/) | Easy |
+| [0448-find-all-numbers-disappeared-in-an-array](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/0448-find-all-numbers-disappeared-in-an-array/) | Easy |
 | [0645-set-mismatch](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/0645-set-mismatch/) | Easy |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/1365-how-many-numbers-are-smaller-than-the-current-number/) | Easy |
 | [1980-find-unique-binary-string](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/1980-find-unique-binary-string/) | Medium |
