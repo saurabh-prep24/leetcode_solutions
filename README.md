@@ -149,6 +149,7 @@ Leetcode solution for revisions
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0061-rotate-list](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0061-rotate-list/) | Medium |
 | [0189-rotate-array](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0189-rotate-array/) | Medium |
 | [0202-happy-number](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/0202-happy-number/) | Easy |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/1855-maximum-distance-between-a-pair-of-values/) | Medium |
@@ -232,4 +233,8 @@ Leetcode solution for revisions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1046-last-stone-weight](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/1046-last-stone-weight/) | Easy |
+## Linked List
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0061-rotate-list](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0061-rotate-list/) | Medium |
 <!---LeetCode Topics End-->
