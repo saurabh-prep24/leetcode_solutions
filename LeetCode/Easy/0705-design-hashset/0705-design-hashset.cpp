@@ -1,14 +1,14 @@
 class MyHashSet {
 public:
-    int s = 1e6+1;
-    vector<int> v;
-    MyHashSet() { v = vector<int>(s, -1); }
+    int s = 1e6 + 1;
+    vector<bool> v;
+    MyHashSet() { v = vector<bool>(s, 0); }
 
     void add(int key) { v[key] = 1; }
 
-    void remove(int key) { v[key] = -1; }
+    void remove(int key) { v[key] = 0; }
 
-    bool contains(int key) { return v[key] == 1; }
+    bool contains(int key) { return v[key]; }
 };
 
 /**
