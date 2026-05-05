@@ -10,7 +10,7 @@
  */
 class Solution {
 public:
-    ListNode* rotateRight(ListNode* head, int k) {
+    ListNode* solve1(ListNode* head, int k) {
         // no head or single node then return
         if (!head || !head->next) {
             return head;
@@ -49,5 +49,45 @@ public:
         temp->next = prevHead;
         // return new head for ans
         return newHead;
+    }
+
+    // make LL circular instead of breaking in 2 parts
+    ListNode* solve2(ListNode* head, int k) {
+        // no head or single node then return
+        if (!head || !head->next) {
+            return head;
+        }
+        // count nodes
+        int n = 1;
+        ListNode* tail = head;
+        while (tail->next) {
+            tail = tail->next;
+            n++;
+        }
+        // normalise k inside n
+        k = k % n;
+        if (k == 0) {
+            return head;
+        }
+
+        // make circular
+        tail->next = head;
+
+        // move to (n-k)th node
+        int c = 1;
+        ListNode* t = head;
+        while (c < n - k) {
+            t = t->next;
+            c++;
+        }
+        // store newhead and point last node to null
+        ListNode* newHead = t->next;
+        t->next = NULL;
+        // return new head
+        return newHead;
+    }
+    ListNode* rotateRight(ListNode* head, int k) {
+        // return solve1(head, k);
+        return solve2(head, k);
     }
 };
