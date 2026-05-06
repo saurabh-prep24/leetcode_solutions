@@ -20,6 +20,7 @@ Leetcode solution for revisions
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0024-swap-nodes-in-pairs](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0024-swap-nodes-in-pairs/) | Medium |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/1545-find-kth-bit-in-nth-binary-string/) | Medium |
 ## Simulation
 | Problem Name | Difficulty |
@@ -246,6 +247,7 @@ Leetcode solution for revisions
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0024-swap-nodes-in-pairs](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0024-swap-nodes-in-pairs/) | Medium |
 | [0061-rotate-list](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0061-rotate-list/) | Medium |
 | [0705-design-hashset](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/0705-design-hashset/) | Easy |
 | [0706-design-hashmap](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/0706-design-hashmap/) | Easy |
