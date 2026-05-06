@@ -10,34 +10,59 @@ public:
         cout << "--------------" << endl;
     }
 
-    // better - we can move to # to right side 
+    // better - we can move to # to right side
     // [similar to move 1 to rights in binary arr]
     // then rot it would be easier
     // but solved like this for complexity
-    vector<vector<char>> rotateTheBox(vector<vector<char>>& boxGrid) {
-        int n = boxGrid.size(), m = boxGrid[0].size();
-        vector<vector<char>> rot(m, vector<char>(n, '.'));
+    vector<vector<char>> rotateTheBox2(vector<vector<char>>& arr) {
+        int n = arr.size(), m = arr[0].size();
+        // move all # to right
         for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
-                rot[j][n - i - 1] = boxGrid[i][j];
-            }
-        }
-        // print(rot);
-        for (int i = 0; i < n; i++) {
-            // track non-obstacles index
-            int emp = m - 1;
+            int lastEmp = m - 1;
             for (int j = m - 1; j >= 0; j--) {
-                // move emp to prev
-                if (rot[j][i] == '*') {
-                    emp = j - 1;
-                } else if (rot[j][i] == '#') {
-                    // swap and move emp to prev
-                    swap(rot[j][i], rot[emp][i]);
-                    emp--;
+                if (arr[i][j] == '*') {
+                    lastEmp = j - 1;
+                } else if (arr[i][j] == '#') {
+                    swap(arr[i][j], arr[i][lastEmp]);
+                    lastEmp--;
                 }
             }
         }
-        // print(rot);
+
+        vector<vector<char>> rot(m, vector<char>(n, '.'));
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                rot[j][n - i - 1] = arr[i][j];
+            }
+        }
         return rot;
+    }
+
+    vector<vector<char>> rotateTheBox(vector<vector<char>>& boxGrid) {
+        return rotateTheBox2(boxGrid);
+        // int n = boxGrid.size(), m = boxGrid[0].size();
+        // vector<vector<char>> rot(m, vector<char>(n, '.'));
+        // for (int i = 0; i < n; i++) {
+        //     for (int j = 0; j < m; j++) {
+        //         rot[j][n - i - 1] = boxGrid[i][j];
+        //     }
+        // }
+        // // print(rot);
+        // for (int i = 0; i < n; i++) {
+        //     // track non-obstacles index
+        //     int emp = m - 1;
+        //     for (int j = m - 1; j >= 0; j--) {
+        //         // move emp to prev
+        //         if (rot[j][i] == '*') {
+        //             emp = j - 1;
+        //         } else if (rot[j][i] == '#') {
+        //             // swap and move emp to prev
+        //             swap(rot[j][i], rot[emp][i]);
+        //             emp--;
+        //         }
+        //     }
+        // }
+        // // print(rot);
+        // return rot;
     }
 };
