@@ -10,36 +10,60 @@
  */
 class Solution {
 public:
-    ListNode* swapPairs(ListNode* head) {
+    // time: O(n)
+    // space: (n) // rec stack
+    ListNode* rec(ListNode* head) {
         // if no head or single node then return
         if (!head || !head->next)
             return head;
 
-        // curr
-        ListNode* currNode = head;
-        // next
+        // [1 -> 2 -> 3 -> 4]
+        //  h    t
+        // [2 -> 1 -> | 3 -> 4]
+        // t     h.   rec() - new head from rec
+        // t = h->next
+        // h->next = rec(t->next)
+        // t->next = h
+        // return t
         ListNode* nextNode = head->next;
-        // rem list head for rec call
-        ListNode* rem;
-        // new head after swapping
-        head = nextNode;
+        // point rec ans to head->next
+        head->next = rec(head->next->next);
+        // swap next node with head
+        nextNode->next = head;
+        // return nextNode as new head
+        return nextNode;
+    }
 
-        // swap nodes if applicable
-        if (currNode && nextNode) {
-            // change links
-            currNode->next = nextNode->next;
-            ListNode* nextToNode = nextNode->next;
-            nextNode->next = currNode;
-            // store rem list head
-            rem = nextToNode;
+    // time: O(n)
+    // space: O(1)
+    ListNode* dummySwap(ListNode* head) {
+        if (!head || !head->next) {
+            return head;
         }
+        ListNode* dummyHead = new ListNode();
+        ListNode* prev = dummyHead;
+        ListNode* curr = head;
+        // [0] - P
+        // [1(c) -> 2 -> 3 -> 3]
+        // p->n = c->n
+        // c->n = c->n->n
+        // p->n->n = c
+        // [0P -> 2 -> 1C -> 3 -> 4]
+        // move
+        // p = c
+        // c= c->n
+        while (curr && curr->next) {
+            prev->next = curr->next;
+            curr->next = curr->next->next;
+            prev->next->next = curr;
 
-        // 2nd node is now currNode after swapping
-        // map its next to rec call ans 
-        // head of rem swapped list
-        currNode->next = swapPairs(rem);
-        
-        // return stored head
-        return head;
+            prev = curr;
+            curr = curr->next;
+        }
+        return dummyHead->next;
+    }
+    ListNode* swapPairs(ListNode* head) {
+        // return rec(head);
+        return dummySwap(head);
     }
 };
