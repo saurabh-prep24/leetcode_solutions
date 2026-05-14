@@ -78,6 +78,7 @@ Leetcode solution for revisions
 | [2553-separate-the-digits-in-an-array](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/2553-separate-the-digits-in-an-array/) | Easy |
 | [2615-sum-of-distances](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/2615-sum-of-distances/) | Medium |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/2770-maximum-number-of-jumps-to-reach-the-last-index/) | Medium |
+| [2784-check-if-array-is-good](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/2784-check-if-array-is-good/) | Easy |
 | [3488-closest-equal-element-queries](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3488-closest-equal-element-queries/) | Medium |
 | [3546-equal-sum-grid-partition-i](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3546-equal-sum-grid-partition-i/) | Medium |
 | [3643-flip-square-submatrix-vertically](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/3643-flip-square-submatrix-vertically/) | Easy |
@@ -136,6 +137,7 @@ Leetcode solution for revisions
 | [1980-find-unique-binary-string](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/1980-find-unique-binary-string/) | Medium |
 | [2121-intervals-between-identical-elements](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/2121-intervals-between-identical-elements/) | Medium |
 | [2615-sum-of-distances](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/2615-sum-of-distances/) | Medium |
+| [2784-check-if-array-is-good](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/2784-check-if-array-is-good/) | Easy |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 | [3488-closest-equal-element-queries](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3488-closest-equal-element-queries/) | Medium |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/3740-minimum-distance-between-three-equal-elements-i/) | Easy |
@@ -211,6 +213,7 @@ Leetcode solution for revisions
 | [0645-set-mismatch](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/0645-set-mismatch/) | Easy |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/1365-how-many-numbers-are-smaller-than-the-current-number/) | Easy |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
+| [2784-check-if-array-is-good](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/2784-check-if-array-is-good/) | Easy |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
