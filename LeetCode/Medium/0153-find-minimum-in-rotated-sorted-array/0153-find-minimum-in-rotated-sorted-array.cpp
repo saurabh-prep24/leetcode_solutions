@@ -4,16 +4,14 @@ public:
         int mini = INT_MAX;
         int i = 0, n = nums.size(), j = n - 1;
         int m;
-        while (i <= j) {
+        while (i < j) {
             m = i + (j - i) / 2;
-            if (nums[m] >= nums[i]) {
-                mini = min(mini, nums[i]);
-                i = m + 1;
+            if (nums[m] < nums[j]) {
+                j = m;
             } else {
-                mini = min(mini, nums[m]);
-                j = m - 1;
+                i = m + 1;
             }
         }
-        return mini;
+        return nums[i];
     }
 };
