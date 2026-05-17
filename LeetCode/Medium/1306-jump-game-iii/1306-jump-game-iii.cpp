@@ -56,8 +56,8 @@ public:
         return false;
     }
     bool canReach(vector<int>& arr, int start) {
-        if(arr[start]==0)
-            return 1;
+        // if(arr[start]==0)
+            // return 1;
 
         // track vis
         vector<bool> vis(arr.size(), 0);
