@@ -60,9 +60,9 @@ public:
             return 1;
 
         // track vis
-        // vector<bool> vis(arr.size(), 0);
-        // return dfs(arr, start, vis);
+        vector<bool> vis(arr.size(), 0);
+        return dfs(arr, start, vis);
 
-        return bfs(arr, start);
+        // return bfs(arr, start);
     }
 };
