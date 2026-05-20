@@ -82,6 +82,7 @@ Leetcode solution for revisions
 | [2540-minimum-common-value](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/2540-minimum-common-value/) | Easy |
 | [2553-separate-the-digits-in-an-array](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/2553-separate-the-digits-in-an-array/) | Easy |
 | [2615-sum-of-distances](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/2615-sum-of-distances/) | Medium |
+| [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/2657-find-the-prefix-common-array-of-two-arrays/) | Medium |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/2770-maximum-number-of-jumps-to-reach-the-last-index/) | Medium |
 | [2784-check-if-array-is-good](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/2784-check-if-array-is-good/) | Easy |
 | [3488-closest-equal-element-queries](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3488-closest-equal-element-queries/) | Medium |
@@ -114,6 +115,7 @@ Leetcode solution for revisions
 | [0476-number-complement](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/0476-number-complement/) | Easy |
 | [0645-set-mismatch](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/0645-set-mismatch/) | Easy |
 | [1009-complement-of-base-10-integer](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/1009-complement-of-base-10-integer/) | Easy |
+| [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/2657-find-the-prefix-common-array-of-two-arrays/) | Medium |
 ## Database
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -144,6 +146,7 @@ Leetcode solution for revisions
 | [2121-intervals-between-identical-elements](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/2121-intervals-between-identical-elements/) | Medium |
 | [2540-minimum-common-value](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/2540-minimum-common-value/) | Easy |
 | [2615-sum-of-distances](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/2615-sum-of-distances/) | Medium |
+| [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/2657-find-the-prefix-common-array-of-two-arrays/) | Medium |
 | [2784-check-if-array-is-good](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/2784-check-if-array-is-good/) | Easy |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 | [3488-closest-equal-element-queries](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3488-closest-equal-element-queries/) | Medium |
