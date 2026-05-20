@@ -3,16 +3,23 @@ public:
     vector<int> findThePrefixCommonArray(vector<int>& A, vector<int>& B) {
         int n = A.size();
         vector<int> ans(n, 0);
-        vector<int> countA(51, 0);
-        vector<int> countB(51, 0);
+        // all elems are [1...n] only with no repetitions
+        vector<int> counts(n + 1, 0);
+        // count duplicates from start
+        int dup = 0;
         for (int i = 0; i < n; i++) {
-            countA[A[i]]++;
-            countB[B[i]]++;
-            int t = 0;
-            for (int j = 0; j < countA.size(); j++) {
-                t += min(countA[j], countB[j]);
+            counts[A[i]]++;
+            // check if count > 1
+            if (counts[A[i]] > 1) {
+                dup++;
             }
-            ans[i] = t;
+            counts[B[i]]++;
+            // check if count > 1
+            if (counts[B[i]] > 1) {
+                dup++;
+            }
+            // cout << dup << endl;
+            ans[i] = dup;
         }
         return ans;
     }
