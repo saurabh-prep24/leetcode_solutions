@@ -1,11 +1,11 @@
 class Solution {
 public:
-    int longestCommonPrefix(vector<int>& arr1, vector<int>& arr2) {
+    int brute(vector<int>& arr1, vector<int>& arr2) {
         int ans = 0;
         unordered_set<int> prefix1;
         for (auto i : arr1) {
             int n = i;
-            while (n) {
+            while (n && prefix1.count(n) == 0) {
                 prefix1.insert(n);
                 n /= 10;
             }
@@ -26,5 +26,8 @@ public:
             ans /= 10;
         }
         return c;
+    }
+    int longestCommonPrefix(vector<int>& arr1, vector<int>& arr2) {
+        return brute(arr1, arr2);
     }
 };
