@@ -50,25 +50,29 @@ public:
     // time: O(n)
     // space: O(n)
     bool countSortSolve(int mass, vector<int>& asteroids) {
-        int MaxSize = 1e5+1;
+        int MaxSize = 1e5 + 1;
         vector<int> cnt(MaxSize, 0);
+        int mini = INT_MAX;
         int maxi = INT_MIN;
         // Count each asteroid size and update maxi
         for (int ast : asteroids) {
             cnt[ast]++;
             maxi = max(maxi, ast);
+            mini = min(mini, ast);
         }
-        long long curmass = mass;
+        long long currMass = mass;
         // Process asteroids from smallest to maxi size
-        for (int ast = 1;ast <=maxi && ast <= MaxSize; ast++) {
-            while (cnt[ast] > 0) {
-                if (curmass < ast) return false;
+        for (int ast = mini; ast <= maxi && ast <= MaxSize; ast++) {
+            if (cnt[ast] > 0) {
+                // not possible
+                if (currMass < ast) {
+                    return false;
+                }
 
-                curmass += ast;
-                cnt[ast]--;
+                // add all ast to currMass
+                currMass += 1LL * ast * cnt[ast];
             }
         }
-
         return true;
     }
     bool asteroidsDestroyed(int mass, vector<int>& asteroids) {
