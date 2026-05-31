@@ -47,8 +47,33 @@ public:
         }
         return pq.empty();
     }
+    // time: O(n)
+    // space: O(n)
+    bool countSortSolve(int mass, vector<int>& asteroids) {
+        int MaxSize = 1e5+1;
+        vector<int> cnt(MaxSize, 0);
+        int maxi = INT_MIN;
+        // Count each asteroid size and update maxi
+        for (int ast : asteroids) {
+            cnt[ast]++;
+            maxi = max(maxi, ast);
+        }
+        long long curmass = mass;
+        // Process asteroids from smallest to maxi size
+        for (int ast = 1;ast <=maxi && ast <= MaxSize; ast++) {
+            while (cnt[ast] > 0) {
+                if (curmass < ast) return false;
+
+                curmass += ast;
+                cnt[ast]--;
+            }
+        }
+
+        return true;
+    }
     bool asteroidsDestroyed(int mass, vector<int>& asteroids) {
+        // return heapSolve(mass, asteroids);
         // return sortingSolve(mass, asteroids);
-        return heapSolve(mass, asteroids);
+        return countSortSolve(mass, asteroids);
     }
 };
