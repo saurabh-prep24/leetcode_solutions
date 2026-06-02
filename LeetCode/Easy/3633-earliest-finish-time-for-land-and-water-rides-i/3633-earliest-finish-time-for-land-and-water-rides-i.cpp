@@ -7,33 +7,23 @@ public:
         int ans = INT_MAX;
         for (int i = 0; i < landStartTime.size(); i++) {
             for (int j = 0; j < waterStartTime.size(); j++) {
+                // Land->Water
                 int d = landStartTime[i] + landDuration[i];
                 if (waterStartTime[j] <= d) {
                     d += waterDuration[j];
                 } else {
                     d = waterStartTime[j] + waterDuration[j];
                 }
-                // cout<<landStartTime[i] <<" - "<<landDuration[i]<<endl;
-                // cout<<waterStartTime[j] <<" - "<<waterDuration[j]<<endl;
-                // cout<<"d2 "<<d<<endl;
-
                 ans = min(ans, d);
-            }
-        }
 
-        for (int i = 0; i < waterStartTime.size(); i++) {
-            for (int j = 0; j < landStartTime.size(); j++) {
-                int d = waterStartTime[i] + waterDuration[i];
-                if (landStartTime[j] <= d) {
-                    d += landDuration[j];
+                // Water->Land
+                int d2 = waterStartTime[j] + waterDuration[j];
+                if (landStartTime[i] <= d2) {
+                    d2 += landDuration[i];
                 } else {
-                    d = landStartTime[j] + landDuration[j];
+                    d2 = landStartTime[i] + landDuration[i];
                 }
-                // cout<<waterStartTime[i] <<" - "<<waterDuration[i]<<endl;
-                // cout<<landStartTime[j] <<" - "<<landDuration[j]<<endl;
-                // cout<<"d2 "<<d<<endl;
-
-                ans = min(ans, d);
+                ans = min(ans, d2);
             }
         }
         return ans;
