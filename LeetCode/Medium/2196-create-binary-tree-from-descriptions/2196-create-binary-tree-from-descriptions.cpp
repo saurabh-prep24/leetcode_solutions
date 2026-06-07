@@ -12,6 +12,8 @@
  */
 class Solution {
 public:
+    // Time: O(N)
+    // Space: O(N)
     TreeNode* build(vector<vector<int>>& arr) {
         // keep all mp[val] -> nodes
         unordered_map<int, TreeNode*> nodes;
