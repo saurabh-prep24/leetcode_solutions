@@ -85,6 +85,7 @@ Leetcode solution for revisions
 | [2121-intervals-between-identical-elements](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/2121-intervals-between-identical-elements/) | Medium |
 | [2126-destroying-asteroids](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/2126-destroying-asteroids/) | Medium |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
+| [2196-create-binary-tree-from-descriptions](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/2196-create-binary-tree-from-descriptions/) | Medium |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
 | [2540-minimum-common-value](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/2540-minimum-common-value/) | Easy |
 | [2553-separate-the-digits-in-an-array](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/2553-separate-the-digits-in-an-array/) | Easy |
@@ -158,6 +159,7 @@ Leetcode solution for revisions
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/1365-how-many-numbers-are-smaller-than-the-current-number/) | Easy |
 | [1980-find-unique-binary-string](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/1980-find-unique-binary-string/) | Medium |
 | [2121-intervals-between-identical-elements](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/2121-intervals-between-identical-elements/) | Medium |
+| [2196-create-binary-tree-from-descriptions](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/2196-create-binary-tree-from-descriptions/) | Medium |
 | [2540-minimum-common-value](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/2540-minimum-common-value/) | Easy |
 | [2615-sum-of-distances](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/2615-sum-of-distances/) | Medium |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/2657-find-the-prefix-common-array-of-two-arrays/) | Medium |
@@ -327,4 +329,12 @@ Leetcode solution for revisions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3043-find-the-length-of-the-longest-common-prefix/) | Medium |
+## Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2196-create-binary-tree-from-descriptions](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/2196-create-binary-tree-from-descriptions/) | Medium |
+## Binary Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2196-create-binary-tree-from-descriptions](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/2196-create-binary-tree-from-descriptions/) | Medium |
 <!---LeetCode Topics End-->
