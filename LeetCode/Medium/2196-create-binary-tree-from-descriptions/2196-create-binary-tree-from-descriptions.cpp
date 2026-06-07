@@ -60,6 +60,8 @@ public:
 
         TreeNode* head;
         // check all nodes
+        // OPT: can use XOR also for parent
+        // [XOR all nodes both parent and child -> unique will be head]
         for (auto i : nodes) {
             // find node with no Parent
             if (childToParent[i.first] == 0) {
