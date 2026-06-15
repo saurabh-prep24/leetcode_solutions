@@ -204,6 +204,7 @@ Leetcode solution for revisions
 | [0202-happy-number](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/0202-happy-number/) | Easy |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [1861-rotating-the-box](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/1861-rotating-the-box/) | Medium |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/2095-delete-the-middle-node-of-a-linked-list/) | Medium |
 | [2540-minimum-common-value](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/2540-minimum-common-value/) | Easy |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/3633-earliest-finish-time-for-land-and-water-rides-i/) | Easy |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3635-earliest-finish-time-for-land-and-water-rides-ii/) | Medium |
@@ -314,6 +315,7 @@ Leetcode solution for revisions
 | [0705-design-hashset](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/0705-design-hashset/) | Easy |
 | [0706-design-hashmap](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/0706-design-hashmap/) | Easy |
 | [1290-convert-binary-number-in-a-linked-list-to-integer](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/1290-convert-binary-number-in-a-linked-list-to-integer/) | Easy |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/2095-delete-the-middle-node-of-a-linked-list/) | Medium |
 ## Hash Function
 | Problem Name | Difficulty |
 | ------- | ------- |
