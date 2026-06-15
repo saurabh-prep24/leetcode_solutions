@@ -11,20 +11,31 @@
 class Solution {
 public:
     ListNode* deleteMiddle(ListNode* head) {
+        // slow
         ListNode* slow = head;
-        ListNode* prev = NULL;
+        // fast
         ListNode* fast = head;
+        // prev to slow
+        ListNode* prev = NULL;
+        // travel fast to end of list
         while (fast && fast->next) {
+            // store prev
             prev = slow;
             slow = slow->next;
             fast = fast->next->next;
         }
+        // if prev is still nil then return 
+        // cases with no node or 1 node only
         if (!prev)
             return prev;
 
+        // store slow
         ListNode* t = slow;
+        // change links
         prev->next = slow->next;
+        // remove slow
         delete (t);
+        // return head
         return head;
     }
 };
