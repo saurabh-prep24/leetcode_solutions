@@ -14,6 +14,7 @@ Leetcode solution for revisions
 | [1871-jump-game-vii](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/1871-jump-game-vii/) | Medium |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/1888-minimum-number-of-flips-to-make-the-binary-string-alternating/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/1980-find-unique-binary-string/) | Medium |
+| [2287-rearrange-characters-to-make-target-string](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/2287-rearrange-characters-to-make-target-string/) | Easy |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
 | [2833-furthest-point-from-origin](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/2833-furthest-point-from-origin/) | Easy |
 | [2839-check-if-strings-can-be-made-equal-with-operations-i](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/2839-check-if-strings-can-be-made-equal-with-operations-i/) | Easy |
@@ -167,6 +168,7 @@ Leetcode solution for revisions
 | [1980-find-unique-binary-string](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/1980-find-unique-binary-string/) | Medium |
 | [2121-intervals-between-identical-elements](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/2121-intervals-between-identical-elements/) | Medium |
 | [2196-create-binary-tree-from-descriptions](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/2196-create-binary-tree-from-descriptions/) | Medium |
+| [2287-rearrange-characters-to-make-target-string](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/2287-rearrange-characters-to-make-target-string/) | Easy |
 | [2540-minimum-common-value](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/2540-minimum-common-value/) | Easy |
 | [2615-sum-of-distances](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/2615-sum-of-distances/) | Medium |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/2657-find-the-prefix-common-array-of-two-arrays/) | Medium |
@@ -284,6 +286,7 @@ Leetcode solution for revisions
 ## Counting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [2287-rearrange-characters-to-make-target-string](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/2287-rearrange-characters-to-make-target-string/) | Easy |
 | [2833-furthest-point-from-origin](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/2833-furthest-point-from-origin/) | Easy |
 ## Counting Sort
 | Problem Name | Difficulty |
