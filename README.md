@@ -7,6 +7,7 @@ Leetcode solution for revisions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0657-robot-return-to-origin](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/0657-robot-return-to-origin/) | Easy |
+| [1189-maximum-number-of-balloons](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/1189-maximum-number-of-balloons/) | Easy |
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | Medium |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/1545-find-kth-bit-in-nth-binary-string/) | Medium |
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/1758-minimum-changes-to-make-alternating-binary-string/) | Easy |
@@ -163,6 +164,7 @@ Leetcode solution for revisions
 | [0645-set-mismatch](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/0645-set-mismatch/) | Easy |
 | [0705-design-hashset](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/0705-design-hashset/) | Easy |
 | [0706-design-hashmap](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/0706-design-hashmap/) | Easy |
+| [1189-maximum-number-of-balloons](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/1189-maximum-number-of-balloons/) | Easy |
 | [1345-jump-game-iv](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Hard/1345-jump-game-iv/) | Hard |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/1365-how-many-numbers-are-smaller-than-the-current-number/) | Easy |
 | [1980-find-unique-binary-string](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/1980-find-unique-binary-string/) | Medium |
@@ -286,6 +288,7 @@ Leetcode solution for revisions
 ## Counting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1189-maximum-number-of-balloons](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/1189-maximum-number-of-balloons/) | Easy |
 | [2287-rearrange-characters-to-make-target-string](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/2287-rearrange-characters-to-make-target-string/) | Easy |
 | [2833-furthest-point-from-origin](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/2833-furthest-point-from-origin/) | Easy |
 ## Counting Sort
