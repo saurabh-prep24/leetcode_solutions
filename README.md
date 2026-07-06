@@ -69,6 +69,7 @@ Leetcode solution for revisions
 | [0706-design-hashmap](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/0706-design-hashmap/) | Easy |
 | [0739-daily-temperatures](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0739-daily-temperatures/) | Medium |
 | [1046-last-stone-weight](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/1046-last-stone-weight/) | Easy |
+| [1288-remove-covered-intervals](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/1288-remove-covered-intervals/) | Medium |
 | [1306-jump-game-iii](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/1306-jump-game-iii/) | Medium |
 | [1345-jump-game-iv](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Hard/1345-jump-game-iv/) | Hard |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/1365-how-many-numbers-are-smaller-than-the-current-number/) | Easy |
@@ -272,6 +273,7 @@ Leetcode solution for revisions
 | ------- | ------- |
 | [0016-3sum-closest](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0016-3sum-closest/) | Medium |
 | [0645-set-mismatch](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/0645-set-mismatch/) | Easy |
+| [1288-remove-covered-intervals](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/1288-remove-covered-intervals/) | Medium |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/1365-how-many-numbers-are-smaller-than-the-current-number/) | Easy |
 | [1833-maximum-ice-cream-bars](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/1833-maximum-ice-cream-bars/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
