@@ -38,6 +38,11 @@ public:
         }
     };
 
+    // merge left and right into one node
+    // node = {sum, num, len}
+    // ex - 1234
+    // L={3,12,2} for {1,2} => sum=1+2, num=12, len=2
+    // R={7,34,2} for {3,4} => sum=3+4, num=34, len=2
     node merge(node L, node R) {
         return node((L.sum + R.sum) % mod, (L.num * pow10[R.len] + R.num) % mod,
                     L.len + R.len);
@@ -79,10 +84,27 @@ public:
         return merge(left, right);
     }
     /*
-        time: O(n)[buildSeg] + O(log n)[solveSeg]*O(q) = O(q logn)
+        time: O(n)[buildSeg] + O(log n)[solveSeg]*O(q) = O(n +qlogn)
         space: O(4n)
     */
     vector<int> segSolve(string& s, vector<vector<int>>& queries) {
+        // 1. build seg tree
+        // 2. solve ranged query from seg tree
+        // 3. ans will be made from left and right
+        // 4. we need {sum,num,len} at each point to solve
+        // 5. keeping only 1 val like num concat can solve but space and time will be huge
+        // so keep pair of sum and num
+        // but for merging ans from left and right to build seg tree
+        // we require the pow of 10 to prepend left to right
+        // for 12|34
+        // ex - left=12 | right=34
+        // L={3,12,2} for {1,2} => sum=1+2, num=12, len=2
+        // R={7,34,2} for {3,4} => sum=3+4, num=34, len=2
+        // next ans = 12 * pow(10, 2) + 34
+        // nextNum => left.num * pow(10, right.len) + right.num
+        // nextSum => left.sum + right.sum
+        // nextLen => left.len + right.len
+        // this approach will be needed to construct seg tree nodes
         int n = s.size();
         vector<int> ans;
         vector<node> segTree(4 * n);
@@ -96,6 +118,7 @@ public:
         // build seg tree
         buildSegTree(s, 0, 0, n - 1, segTree);
 
+        // solve for each range
         for (auto i : queries) {
             int s = i[0], e = i[1];
             node t = solveRange(s, e, 0, 0, n - 1, segTree);
