@@ -262,6 +262,7 @@ Leetcode solution for revisions
 ## Enumeration
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1291-sequential-digits](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/1291-sequential-digits/) | Medium |
 | [3546-equal-sum-grid-partition-i](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3546-equal-sum-grid-partition-i/) | Medium |
 ## Prefix Sum
 | Problem Name | Difficulty |
