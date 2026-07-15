@@ -210,6 +210,7 @@ Leetcode solution for revisions
 | [1685-sum-of-absolute-differences-in-a-sorted-array](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/1685-sum-of-absolute-differences-in-a-sorted-array/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/3300-minimum-element-after-replacement-with-digit-sum/) | Easy |
+| [3658-gcd-of-odd-and-even-sums](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/3658-gcd-of-odd-and-even-sums/) | Easy |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/3754-concatenate-non-zero-digits-and-multiply-by-sum-i/) | Easy |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii/) | Medium |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3761-minimum-absolute-distance-between-mirror-pairs/) | Medium |
@@ -385,4 +386,8 @@ Leetcode solution for revisions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3286-find-a-safe-walk-through-a-grid/) | Medium |
+## Number Theory
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3658-gcd-of-odd-and-even-sums](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/3658-gcd-of-odd-and-even-sums/) | Easy |
 <!---LeetCode Topics End-->
