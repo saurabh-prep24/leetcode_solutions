@@ -35,6 +35,7 @@ Leetcode solution for revisions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0657-robot-return-to-origin](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/0657-robot-return-to-origin/) | Easy |
+| [1260-shift-2d-grid](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/1260-shift-2d-grid/) | Easy |
 | [1441-build-an-array-with-stack-operations](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/1441-build-an-array-with-stack-operations/) | Medium |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/1545-find-kth-bit-in-nth-binary-string/) | Medium |
 | [1700-number-of-students-unable-to-eat-lunch](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/1700-number-of-students-unable-to-eat-lunch/) | Easy |
@@ -72,6 +73,7 @@ Leetcode solution for revisions
 | [0706-design-hashmap](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/0706-design-hashmap/) | Easy |
 | [0739-daily-temperatures](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0739-daily-temperatures/) | Medium |
 | [1046-last-stone-weight](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/1046-last-stone-weight/) | Easy |
+| [1260-shift-2d-grid](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/1260-shift-2d-grid/) | Easy |
 | [1288-remove-covered-intervals](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/1288-remove-covered-intervals/) | Medium |
 | [1306-jump-game-iii](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/1306-jump-game-iii/) | Medium |
 | [1331-rank-transform-of-an-array](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/1331-rank-transform-of-an-array/) | Easy |
@@ -131,6 +133,7 @@ Leetcode solution for revisions
 | [0048-rotate-image](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0048-rotate-image/) | Medium |
 | [0074-search-a-2d-matrix](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0074-search-a-2d-matrix/) | Medium |
 | [0240-search-a-2d-matrix-ii](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0240-search-a-2d-matrix-ii/) | Medium |
+| [1260-shift-2d-grid](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/1260-shift-2d-grid/) | Easy |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/1582-special-positions-in-a-binary-matrix/) | Easy |
 | [1861-rotating-the-box](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/1861-rotating-the-box/) | Medium |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
