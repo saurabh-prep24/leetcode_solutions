@@ -116,6 +116,7 @@ Leetcode solution for revisions
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3286-find-a-safe-walk-through-a-grid/) | Medium |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/3300-minimum-element-after-replacement-with-digit-sum/) | Easy |
 | [3488-closest-equal-element-queries](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3488-closest-equal-element-queries/) | Medium |
+| [3513-number-of-unique-xor-triplets-i](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3513-number-of-unique-xor-triplets-i/) | Medium |
 | [3546-equal-sum-grid-partition-i](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3546-equal-sum-grid-partition-i/) | Medium |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/3633-earliest-finish-time-for-land-and-water-rides-i/) | Easy |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3635-earliest-finish-time-for-land-and-water-rides-ii/) | Medium |
@@ -153,6 +154,7 @@ Leetcode solution for revisions
 | [0645-set-mismatch](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/0645-set-mismatch/) | Easy |
 | [1009-complement-of-base-10-integer](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/1009-complement-of-base-10-integer/) | Easy |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/2657-find-the-prefix-common-array-of-two-arrays/) | Medium |
+| [3513-number-of-unique-xor-triplets-i](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3513-number-of-unique-xor-triplets-i/) | Medium |
 ## Database
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -221,6 +223,7 @@ Leetcode solution for revisions
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/3300-minimum-element-after-replacement-with-digit-sum/) | Easy |
+| [3513-number-of-unique-xor-triplets-i](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3513-number-of-unique-xor-triplets-i/) | Medium |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/3658-gcd-of-odd-and-even-sums/) | Easy |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/3754-concatenate-non-zero-digits-and-multiply-by-sum-i/) | Easy |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii/) | Medium |
