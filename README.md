@@ -224,6 +224,7 @@ Leetcode solution for revisions
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/3300-minimum-element-after-replacement-with-digit-sum/) | Easy |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3513-number-of-unique-xor-triplets-i/) | Medium |
+| [3536-maximum-product-of-two-digits](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/3536-maximum-product-of-two-digits/) | Easy |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/3658-gcd-of-odd-and-even-sums/) | Easy |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/3754-concatenate-non-zero-digits-and-multiply-by-sum-i/) | Easy |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii/) | Medium |
@@ -306,6 +307,7 @@ Leetcode solution for revisions
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
 | [2784-check-if-array-is-good](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/2784-check-if-array-is-good/) | Easy |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
+| [3536-maximum-product-of-two-digits](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/3536-maximum-product-of-two-digits/) | Easy |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/3633-earliest-finish-time-for-land-and-water-rides-i/) | Easy |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3635-earliest-finish-time-for-land-and-water-rides-ii/) | Medium |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3867-sum-of-gcd-of-formed-pairs/) | Medium |
