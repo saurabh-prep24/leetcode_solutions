@@ -4,9 +4,7 @@ public:
         int max1 = INT_MIN, max2 = INT_MIN;
         while (n) {
             int d = n % 10;
-            if (max1 == INT_MIN) {
-                max1 = d;
-            } else if (d > max1) {
+            if (d >= max1) {
                 max2 = max1;
                 max1 = d;
             } else if (d > max2) {
