@@ -67,6 +67,7 @@ Leetcode solution for revisions
 | [0396-rotate-function](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0396-rotate-function/) | Medium |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/0448-find-all-numbers-disappeared-in-an-array/) | Easy |
 | [0485-max-consecutive-ones](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/0485-max-consecutive-ones/) | Easy |
+| [0628-maximum-product-of-three-numbers](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/0628-maximum-product-of-three-numbers/) | Easy |
 | [0636-exclusive-time-of-functions](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0636-exclusive-time-of-functions/) | Medium |
 | [0645-set-mismatch](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/0645-set-mismatch/) | Easy |
 | [0705-design-hashset](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/0705-design-hashset/) | Easy |
@@ -214,6 +215,7 @@ Leetcode solution for revisions
 | [0189-rotate-array](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0189-rotate-array/) | Medium |
 | [0202-happy-number](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/0202-happy-number/) | Easy |
 | [0396-rotate-function](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0396-rotate-function/) | Medium |
+| [0628-maximum-product-of-three-numbers](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/0628-maximum-product-of-three-numbers/) | Easy |
 | [0788-rotated-digits](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0788-rotated-digits/) | Medium |
 | [1290-convert-binary-number-in-a-linked-list-to-integer](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/1290-convert-binary-number-in-a-linked-list-to-integer/) | Easy |
 | [1344-angle-between-hands-of-a-clock](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/1344-angle-between-hands-of-a-clock/) | Medium |
@@ -297,6 +299,7 @@ Leetcode solution for revisions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0016-3sum-closest](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/0016-3sum-closest/) | Medium |
+| [0628-maximum-product-of-three-numbers](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/0628-maximum-product-of-three-numbers/) | Easy |
 | [0645-set-mismatch](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/0645-set-mismatch/) | Easy |
 | [1288-remove-covered-intervals](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/1288-remove-covered-intervals/) | Medium |
 | [1331-rank-transform-of-an-array](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/1331-rank-transform-of-an-array/) | Easy |
