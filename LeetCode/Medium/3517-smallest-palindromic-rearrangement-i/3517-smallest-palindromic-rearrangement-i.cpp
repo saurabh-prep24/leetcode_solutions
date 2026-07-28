@@ -15,25 +15,32 @@ public:
     // time: O(n)
     void getPermutation(string& s, int curr, string& ans) {
         if (curr >= s.size()) {
+            // save 1st palindrome str
             if (isPalindrome(s) && ans == "") {
-                cout << s << endl;
                 ans = s;
             }
             return;
         }
+        // early return if ans is saved
         if (ans != "") {
             return;
         }
         for (int i = curr; i < s.size(); i++) {
+            // swap curr and i char
             swap(s[i], s[curr]);
+            // call to rec with swapped chars str with next index
             getPermutation(s, curr + 1, ans);
+            // backtrack swapped chars
             swap(s[i], s[curr]);
         }
     }
     // time: O(nlogn + n*n!)
     string brute(string& s) {
+        // sort str
         sort(s.begin(), s.end());
         string t = "";
+        // get all permutations in recursive + backtracking
+        // save first complete permutations and early return as only 1st is needed
         getPermutation(s, 0, t);
         return t;
     }
@@ -41,6 +48,11 @@ public:
     // time: O(n)
     // space: O(n)
     string optPart(string s) {
+        // split str into 3 parts
+        // count of all char
+        // then if count is not even then its needed in mid part
+        // append to left count of chars with even count upto count/2
+        // final = left + mid + rev(left)
         int n = s.size();
         vector<int> count(26, 0);
         for (int i = 0; i < n; i++) {
