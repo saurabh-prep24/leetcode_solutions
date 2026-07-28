@@ -12,7 +12,7 @@ public:
         return 1;
     }
 
-    // time: O(n)
+    // time: O(n*n!)
     void getPermutation(string& s, int curr, string& ans) {
         if (curr >= s.size()) {
             // save 1st palindrome str
@@ -95,7 +95,7 @@ public:
 
     string smallestPalindrome(string s) {
         // return brute(s);
-        return partition(s);
-        // return optPart(s);
+        // return partition(s);
+        return optPart(s);
     }
 };
