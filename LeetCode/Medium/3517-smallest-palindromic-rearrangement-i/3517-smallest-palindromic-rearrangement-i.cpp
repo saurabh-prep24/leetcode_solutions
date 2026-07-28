@@ -40,9 +40,22 @@ public:
         sort(s.begin(), s.end());
         string t = "";
         // get all permutations in recursive + backtracking
-        // save first complete permutations and early return as only 1st is needed
+        // save first complete permutations and early return as only 1st is
+        // needed
         getPermutation(s, 0, t);
         return t;
+    }
+
+    // time: O(nlogn)
+    string partition(string s) {
+        // sort left then copy left to right partition
+        int n = s.size();
+        int half = n / 2;
+        sort(s.begin(), s.begin() + half);
+        for (int i = 0; i < n/2; i++) {
+            s[n - i - 1] = s[i];
+        }
+        return s;
     }
 
     // time: O(n)
@@ -79,8 +92,10 @@ public:
         final += left;
         return final;
     }
+
     string smallestPalindrome(string s) {
         // return brute(s);
-        return optPart(s);
+        return partition(s);
+        // return optPart(s);
     }
 };
