@@ -1,6 +1,12 @@
 class Solution {
 public:
     int minimumPushes(string word) {
+        int push = 0, n = word.size();
+        for (int i = 0; i < n; i++) {
+            push += (i / 8) + 1;
+        }
+        return push;
+
         // 8 buttons - so keep all first letters on all 8
         // then another round will have 1 more tap for next 8 letters
         // since all unique letters so no hash map for keeping visited letter
