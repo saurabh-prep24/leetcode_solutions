@@ -129,6 +129,7 @@ Leetcode solution for revisions
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3635-earliest-finish-time-for-land-and-water-rides-ii/) | Medium |
 | [3643-flip-square-submatrix-vertically](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/3643-flip-square-submatrix-vertically/) | Easy |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3653-xor-after-range-multiplication-queries-i/) | Medium |
+| [3731-find-missing-elements](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/3731-find-missing-elements/) | Easy |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/3740-minimum-distance-between-three-equal-elements-i/) | Easy |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3741-minimum-distance-between-three-equal-elements-ii/) | Medium |
 | [3742-maximum-path-score-in-a-grid](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3742-maximum-path-score-in-a-grid/) | Medium |
@@ -207,6 +208,7 @@ Leetcode solution for revisions
 | [3120-count-the-number-of-special-characters-i](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/3120-count-the-number-of-special-characters-i/) | Easy |
 | [3121-count-the-number-of-special-characters-ii](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3121-count-the-number-of-special-characters-ii/) | Medium |
 | [3488-closest-equal-element-queries](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3488-closest-equal-element-queries/) | Medium |
+| [3731-find-missing-elements](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/3731-find-missing-elements/) | Easy |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/3740-minimum-distance-between-three-equal-elements-i/) | Easy |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3741-minimum-distance-between-three-equal-elements-ii/) | Medium |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3761-minimum-absolute-distance-between-mirror-pairs/) | Medium |
@@ -326,6 +328,7 @@ Leetcode solution for revisions
 | [3536-maximum-product-of-two-digits](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/3536-maximum-product-of-two-digits/) | Easy |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/3633-earliest-finish-time-for-land-and-water-rides-i/) | Easy |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3635-earliest-finish-time-for-land-and-water-rides-ii/) | Medium |
+| [3731-find-missing-elements](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Easy/3731-find-missing-elements/) | Easy |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/saurabh-prep24/leetcode_solutions/tree/main/LeetCode/Medium/3867-sum-of-gcd-of-formed-pairs/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
